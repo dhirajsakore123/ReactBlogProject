@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useNavigate, useParams } from "react-router-dom";
 import { Store } from "./DataStore";
+import ContentFoot from "./ContentFoot";
 
 const Common = () => {
   const params = useParams();
@@ -10,12 +11,13 @@ const Common = () => {
     
       window.scrollTo(0, 0);
     }, []);
+
   
   return (
     <>
     
       <div className="commonpage">
-        <button onClick={()=>{navigate(-1)}}>Back</button>
+       
         <div className="outerdiv">
           <div className="likeshare">
             <div>
@@ -41,6 +43,7 @@ const Common = () => {
               .map((item, index) => {
                 return (
                   <>
+               
                     <h2 className="contentheading" >{item.heading}</h2>
                     <div className="profile" key={index}>
                       <img className="profile-img1"
@@ -103,6 +106,7 @@ const Common = () => {
 
                     <div className="hrbox">
                       <hr className="prhr" />
+                      <button className="back-btn" onClick={()=>{navigate(-1)}}>Back</button>
                     </div>
                     <>
                       <div className="dynamic-bottom">
@@ -112,99 +116,8 @@ const Common = () => {
                         </div>
 
                         <div className="dynamic-bottom2">
-                          <div className="cards">
-                            <img
-                              src="https://nitsaholidays.in/uploads/blog/588661nitsa.jpg"
-                              alt="not found"
-                              className="last-img"
-                            />
-                            <p className="pstyle">
-                              The middle class can no longer own a home in
-                              Switzerland, according to Martin Neff, chief
-                              economist at Raiffeisen Bank.
-                            </p>
-                            <div className="profile">
-                              <img
-                                className="profilepic3"
-                                src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
-                                alt="not found"
-                              />
-                              <p
-                                style={{ color: "#d1caca", fontSize: "12px" }}
-                              ></p>
-                              <b style={{ paddingTop: "4.5%" }}>
-                                Dhiraj Sakore
-                                <br />
-                                <p
-                                  style={{ color: "#d1caca", fontSize: "12px" }}
-                                >
-                                  Aug 10: (4min Read)
-                                </p>
-                              </b>
-                            </div>
-                          </div>
-                          <div className="cards">
-                            <img
-                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2g5fUNCawmvMcalxJxv0tLRwgpRwwsDoNw&usqp=CAU"
-                              alt="not found"
-                              className="last-img"
-                            />
-                            <p  className="pstyle">
-                              Walmart has bought stake in one of India's most
-                              popular e-commerce firm, Flipkart. The company has
-                              paid $1.4 billion to buy out hedge fund Tiger
-                            </p>
-                            <div className="profile">
-                              <img
-                                className="profilepic3"
-                                src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
-                                alt="not found"
-                              />
-                              <p
-                                style={{ color: "#d1caca", fontSize: "12px" }}
-                              ></p>
-                              <b style={{ paddingTop: "4.5%" }}>
-                                Dhiraj Sakore
-                                <br />
-                                <p
-                                  style={{ color: "#d1caca", fontSize: "12px" }}
-                                >
-                                  Aug 10: (4min Read)
-                                </p>
-                              </b>
-                            </div>
-                          </div>
-                          <div className="cards">
-                            <img
-                              src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202307/markets-end-four-week-rally-but-43-small-cap-stocks-gain-10-26-ep_7-sixteen_nine.jpeg?size=948:533"
-                              alt="not found"
-                              className="last-img"
-                            />
-                            <p  className="pstyle">
-                              Domestic equity market closed lower on Friday amid
-                              negative global cues and profit-booking. Sensex
-                              fell 106 points to end the session at 66,160..
-                            </p>
-                            <div className="profile">
-                              <img
-                                className="profilepic3"
-                                src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
-                                alt="not found"
-                              />
-                              <p
-                                style={{ color: "#d1caca", fontSize: "12px" }}
-                              ></p>
-                              <b style={{ paddingTop: "4.5%" }}>
-                                Dhiraj Sakore
-                                <br />
-                                <p
-                                  style={{ color: "#d1caca", fontSize: "12px" }}
-                                >
-                                  Aug 10 (4min Read)
-                                </p>
-                              </b>
-                            </div>
-                          </div>
+                        <ContentFoot cat={contextData[params.id-1].category} id={params.id-1}/>
+                       
                         </div>
                       </div>
                     </>

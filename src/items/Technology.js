@@ -10,10 +10,10 @@ const Technology = () => {
     return item.category === "technology";
   });
   const filtered2 = contextData.filter((item) => {
-    return item.category === "technology1";
+    return item.category1 === "technology1";
   });
   const filtered3 = contextData.filter((item) => {
-    return item.category === "technologytop";
+    return item.category2 === "technologytop";
   });
   let count = 2;
 

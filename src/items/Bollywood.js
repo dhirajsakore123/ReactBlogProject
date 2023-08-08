@@ -10,10 +10,10 @@ const Bollywood = () => {
     return item.category === "bollywood";
   });
   const filtered2 = contextData.filter((item) => {
-    return item.category === "bollywoodtop1";
+    return item.category1 === "bollywoodtop1";
   });
   const filtered3 = contextData.filter((item) => {
-    return item.category === "bollywoodtop";
+    return item.category2 === "bollywoodtop";
   });
   let count = 2;
 

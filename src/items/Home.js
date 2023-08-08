@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import RandomNo from './RandomNo'
 import RandomCompo from './RandomCompo'
 import RandomCompo2 from './RandomCompo2'
@@ -8,7 +8,10 @@ import { NavLink } from 'react-router-dom'
 import Arrow from"./arrow.svg"
 
 const Home = () => {
-  
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []);
   const [contextData]=useContext(Store)
     const random=Math.floor(Math.random()*75)
     const random1=Math.floor(Math.random()*75)

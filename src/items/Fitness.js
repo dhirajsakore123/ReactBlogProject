@@ -10,10 +10,10 @@ const Fitness = () => {
     return item.category === "fitness";
   });
   const filtered2 = contextData.filter((item) => {
-    return item.category === "fitnesstop1";
+    return item.category1 === "fitnesstop1";
   });
   const filtered3 = contextData.filter((item) => {
-    return item.category === "fitnesstop";
+    return item.category2 === "fitnesstop";
   });
   let count = 2;
 

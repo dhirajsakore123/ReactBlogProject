@@ -10,10 +10,10 @@ const Food = () => {
     return item.category === "food";
   });
   const filtered2 = contextData.filter((item) => {
-    return item.category === "foodtop1";
+    return item.category1 === "foodtop1";
   });
   const filtered3 = contextData.filter((item) => {
-    return item.category === "foodtop";
+    return item.category2 === "foodtop";
   });
   let count = 2;
 

@@ -91,7 +91,8 @@ const DataStore = (props) => {
       image:"https://www.thestatesman.com/wp-content/uploads/2022/06/maxresdefault-1-1.jpg",
       smalldes:"BRAHMĀSTRA - the Trilogy, is a 3-part film franchise and the beginning of India's first original universe -- the Astraverse.",
       description:"BRAHMĀSTRA - the Trilogy, is a 3-part film franchise and the beginning of India's first original universe -- the Astraverse. It is a new original cinematic universe inspired by deeply rooted concepts and tales in Indian mythology but set in the modern world, with epic storytelling of fantasy, adventure, good vs evil, love and hope; all told using cutting edge technology and never-seen-before visual spectacles. BRAHMĀSTRA: PART ONE, is the story of SHIVA -- a young man and our protagonist, who is on the brink of an epic love, with a girl named... Isha. But their world is turned upside down, because Shiva learns that he has a mysterious connection to the Brahmāstra... and a great power within him that he doesn't understand just yet -- the power of Fire. Experience Shiva's adventures as he journeys into the world of Astras and in turn, discovers his destiny as the DIVINE HERO of the universe.",
-      category:"bollywoodtop1"
+      category1:"bollywoodtop1",
+      category:'bollywood'
     },
     {
       id:12,
@@ -99,7 +100,8 @@ const DataStore = (props) => {
       image:"https://images.mid-day.com/images/images/2023/jun/adipurushdialogues_d.jpg",
       smalldes:"A modern adaptation of the Indian epic Ramayana which follows the exiled prince Raghavs",
       description:"Adipurush (transl.First man) is a 2023 Indian mythological action film based on the Hindu epic Ramayana. The film is directed and co-written by Om Raut, and produced by T-Series and Retrophiles. Shot simultaneously in Hindi and Telugu, the film features Prabhas, Saif Ali Khan, Kriti Sanon, Sunny Singh, and Devdutta Nage.The film was announced in August 2020, through an official motion poster. Principal photography, which took place primarily in Mumbai, commenced in February 2021 and ended in November 2021.",
-      category:"bollywoodtop"
+      category2:"bollywoodtop",
+      category:'bollywood'
     },
     {
       id:13,
@@ -107,7 +109,8 @@ const DataStore = (props) => {
       image:"https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7082/97082-h",
       smalldes:"",
       description:"The film starts with Sanjay Dutt as a budding young actor, being directed by dad Sunil Dutt in his debut film, Rocky. It is evident quite early on that his father’s principles and image are too much for Sanjay to handle. Before one knows it, Sanjay falls into bad company and starts taking drugs. His friend and drug supplier is Zubin Mistry, also known as God (Jim Sarbh). The innocent stray incidents of doing drugs soon turn into an addiction which threatens Sanjay’s very life. The story also shows how Sanjay Dutt finds solace in substance abuse even while his mother, Nargis Dutt (Manisha Koirala), is battling with cancer at home, then in the hospital in the USA, and then again at home in India.",
-      category:"bollywoodtop"
+      category2:"bollywoodtop",
+      category:'bollywood'
     },
     {
       id:14,
@@ -115,7 +118,8 @@ const DataStore = (props) => {
       image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/parmanu-story_647_081417024200.jpg?VersionId=PB2v7io9a6khI2hLbahQYzu1V3UxdyC9",
       smalldes:"",
       description:"‘Parmanu: The Story Of Pokhran’ is exactly what the title suggests. It’s a part fiction, part fact build up to the Pokhran II tests in 1998, after which India was recognised as a nuclear power on the global stage. While it is inspired by this real-life event, it’s story doesn’t follow India’s nuclear program to the T. It takes a few, cinematic liberties, in the way our scientific community and armed forces beat the American intelligence and surveillance systems to successfully test three nuclear bombs in the desert of Pokhran, Rajasthan. It is not an authentic recreation of history, but ‘Parmanu’ is a fairly entertaining look at a story that evokes the right sense of patriotism and national pride without being jingoistic.",
-      category:"bollywoodtop"
+      category:"bollywoodtop",
+      category:'bollywood'
     },
     {
       id:15,
@@ -123,7 +127,8 @@ const DataStore = (props) => {
       image:"https://www.koimoi.com/wp-content/new-galleries/2022/08/aamir-khan-starrer-laal-singh-chaddha-advance-booking-001.jpg",
       smalldes:"",
       description:"The film begins on a train journey from Pathankot to Chandigarh where Laal narrates his extraordinary life to fellow passengers. He is seen carrying a red sweet box, which most assume contains sweets but turns out to be gol gappas. Through his life story, the viewers are taken back in time where Kulkarni and Chandan narrate some of the most important chapters of Indian history from the late 1970s to 2018. From the Emergency era to Operation Blue Star, India Gandhi's assassination, Babri Masjid Demolition, Advani's Rath Yatra, India winning the 1983 Cricket World Cup, Sushmita Sen winning Miss Universe crown, the Kargil war, Mumbai attacks to PM Modi's Swachh Bharat Abhiyaan, all are beautifully incorporated into the story. ",
-      category:"bollywoodtop"
+      category:"bollywoodtop",
+      category:'bollywood'
     },
     
     {
@@ -212,7 +217,8 @@ const DataStore = (props) => {
       image:"https://techcrunch.com/wp-content/uploads/2022/12/orni-fly.jpg?w=1390&crop=1",
       smalldes:"Isn’t it wonderful that there are researchers out there whose job is quite simply to make a robotic bird? That’s certainly the goal of this lab, whose flapping-wing drone, or ornithopter....",
       description:"Isn’t it wonderful that there are researchers out there whose job is quite simply to make a robotic bird? That’s certainly the goal of this lab, whose flapping-wing drone, or ornithopter, has now been equipped with a grasping claw to let it take a rest on a nearby branch or perhaps even a finger — a capability that could make it a much more practical tool.There’s a good reason flight evolved over time, making use of flapping wings — they’re a lot simpler for a bird or insect to grow than rotors or jets, for one thing. Elegance is a hallmark of nature’s designs, and winged creatures fly or glide with a minimum of energy and a great deal of grace.It should be no surprise that scientists have been at pains to re-create winged flapping flight in robotic form for decades, though, like all biomimetics research, meeting with mixed success. But the École Polytechnique Fedérale de Lausanne — one of Switzerland’s famous technical universities — and the University of Seville are doing quite well.",
-      category:"technology1",
+      category1:"technology1",
+      category:"technology",
     },
     {
       id:27,
@@ -220,7 +226,8 @@ const DataStore = (props) => {
       image:"https://empowering-people-network.siemens-stiftung.org/wp-content/uploads/resized/2021/01/thumbnail-8-800x450-c-default.jpg",
       smalldes:"",
       description:"EOS provides rural families in Central America with access to cost-effective safe drinking water solutions at the community level. Through EOS’ technology implementation, education, and monitoring, our team can ensure that communities have safe drinking water continually, allowing children to stay in school, parents to continue working, and communities to thrive.EOS’ comprehensive model provides safe drinking water to over 530,000 people and includes the support of the ministry of health and local partners. This three-step model includes water quality testing and analysis to assess contaminations in the community water source, community water treatment and education to treat the contamination, and an ongoing chlorine tablet distribution through our circuit rider model, providing a sustainable supply chain. Our team provides ongoing technical assistance, training, evaluation, and chlorine tablet distribution to all 1,300 rural communities through a franchised network of 51 chlorine distribution centers. EOS has identified entrepreneurs and initiated these chlorine distribution centers to provide a financially sustainable supply chain of chlorine tablets, while also an opportunity for entrepreneurs to generate up to USD $150 per month while supporting clean water. All solutions are locally-operated and require co-financing from all involved and demonstrates that for just pennies a day per person, we could dramatically reduce the incidence of waterborne disease and save lives.",
-      category:"technologytop",
+      category2:"technologytop",
+      category:"technology",
     },
     {
       id:28,
@@ -228,7 +235,8 @@ const DataStore = (props) => {
       image:"https://empowering-people-network.siemens-stiftung.org/wp-content/uploads/resized/2021/05/XSOSDI_solution_singlepic-800x450-c-default.jpg",
       smalldes:"The Desert Greenhouse is great innovation that turns wasted sandy land into arable land to plant vegetables and fruits, increasing the area of arable land and output of agricultural products with high quality.According to scientific inspection and verification, many desert areas possess good natural conditions which can be developed and utilized to build greenhouses. Due to the scarce rainfall, straw, twigs and other organic materials are valuable building materials in desert areas. Sand is, especially, an inexhaustible source for construction and cultivation substrate.Using these cheap resources to construct greenhouses, planting can not only save costs for construction and operation, but also achieve organic cultivation. Thus, building greenhouses for vegetable production in the desert has very good social, economic, and ecological benefits...",
       description:"The Desert Greenhouse is great innovation that turns wasted sandy land into arable land to plant vegetables and fruits, increasing the area of arable land and output of agricultural products with high quality.According to scientific inspection and verification, many desert areas possess good natural conditions which can be developed and utilized to build greenhouses. Due to the scarce rainfall, straw, twigs and other organic materials are valuable building materials in desert areas. Sand is, especially, an inexhaustible source for construction and cultivation substrate.Using these cheap resources to construct greenhouses, planting can not only save costs for construction and operation, but also achieve organic cultivation. Thus, building greenhouses for vegetable production in the desert has very good social, economic, and ecological benefits.",
-      category:"technologytop",
+      category2:"technologytop",
+      category:"technology",
     },
     {
       id:29,
@@ -236,7 +244,8 @@ const DataStore = (props) => {
       image:"https://empowering-people-network.siemens-stiftung.org/wp-content/uploads/resized/2023/06/E5A0195-copy-min-min-1-320x180-c-default.jpg",
       smalldes:"We are deploying and building a fit-for-purpose electric bicycle designed specifically for hyper-local deliveries and everyday single-user commuting. For the average delivery rider, access to financing and all other support required to onboard on livery platforms is difficult. Wahu! couples its physical mobility tool with the necessary accessories (protective gear; insurance; and maintenance) at a financial offering that is fair and achievable.We developed the Wahu! e-Bike to meet the transport needs of the average Ghanaian worker while having a positive impact on the environment and empowering positive lifestyle changes by supporting sustainable self employment.",
       description:"We are deploying and building a fit-for-purpose electric bicycle designed specifically for hyper-local deliveries and everyday single-user commuting. For the average delivery rider, access to financing and all other support required to onboard on livery platforms is difficult. Wahu! couples its physical mobility tool with the necessary accessories (protective gear; insurance; and maintenance) at a financial offering that is fair and achievable.We developed the Wahu! e-Bike to meet the transport needs of the average Ghanaian worker while having a positive impact on the environment and empowering positive lifestyle changes by supporting sustainable self employment.",
-      category:"technologytop",
+      category2:"technologytop",
+      category:"technology",
     },
     {
       id:30,
@@ -244,7 +253,8 @@ const DataStore = (props) => {
       image:"https://empowering-people-network.siemens-stiftung.org/wp-content/uploads/resized/2021/03/Trinysol_solution_single-pic-800x450-c-default.jpg",
       smalldes:"Where the sun shines, we enable people to use Solar Scheffler Reflectors directly without needing to generate thermal energy. ",
       description:"Where the sun shines, we enable people to use Solar Scheffler Reflectors directly without needing to generate thermal energy. Enterprises use our version of Scheffler Reflectors to get away from using costly fossil energy and, instead, using solar energy with the same production without CO2 emissions. Trinysol manufactures and installs Scheffler Reflectors made out of steel and highly reflective aluminum. These devices are powered by a sensor-controlled motor that enables them to automatically turn toward the sun, focusing their light on one specific point that reaches temperatures of around 1,000 degrees Celsius. This concentrated energy can, afterwards, be used either directly in a kitchen, oven or boiler. It can also be stored in the form of steam in an absorber that is connected to a pressure tank.The sun shines in Mexico and people can’t use it. Especially in rural Mexico there is a lot of sun but people can’t use it because there is no technology or devices to capture its rays on the Mexican market. ",
-      category:"technologytop",
+      category2:"technologytop",
+      category:"technology",
     },
     {
     id:31,
@@ -334,7 +344,8 @@ const DataStore = (props) => {
       image:"https://i.ytimg.com/vi/uYPbbksJxIg/maxresdefault.jpg",
       smalldes:"Oppenheimer (/ˈɒpənˌhaɪmər/ OP-ən-HY-mər) is a 2023 biographical thriller film written and directed by Christopher Nolan. Based on the 2005 biography American Prometheus by",
       description:"Oppenheimer (/ˈɒpənˌhaɪmər/ OP-ən-HY-mər) is a 2023 biographical thriller film written and directed by Christopher Nolan. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film chronicles the life of J. Robert Oppenheimer, an American theoretical physicist who was pivotal in developing the first nuclear weapons as part of the Manhattan Project, and thereby ushering in the Atomic Age. Cillian Murphy stars as Oppenheimer, with Emily Blunt as Oppenheimer's wife Katherine Kitty Oppenheimer, Matt Damon as General Leslie Groves, director of the Manhattan Project, and Robert Downey Jr. as Lewis Strauss, a senior member of the United States Atomic Energy Commission. The ensemble supporting cast includes Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek and Kenneth Branagh.",
-      category:"hollywoodtop1",
+      category1:"hollywoodtop1",
+      category:"hollywood",
     },
     {
       id:42,
@@ -342,7 +353,8 @@ const DataStore = (props) => {
       image:"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/c1ddb91adaf4137c6126d18507ef36459a9e525ad186e2dcb8a5e2b4083773e9._UY500_UX667_RI_TTW_.jpg",
       smalldes:"Avatar: The Way of Water is a 2022 American epic science fiction film directed and produced by James Cameron. He co-wrote the screenplay with Rick Jaffa and Amanda Silver from a story the trio wrote with Josh Friedman and Shane Salerno.",
       description:"Avatar: The Way of Water is a 2022 American epic science fiction film directed and produced by James Cameron. He co-wrote the screenplay with Rick Jaffa and Amanda Silver from a story the trio wrote with Josh Friedman and Shane Salerno. Distributed by 20th Century Studios, it is the sequel to Avatar (2009) and the second installment in the Avatar film series. Cast members Sam Worthington, Zoe Saldaña, Stephen Lang, Joel David Moore, CCH Pounder, Giovanni Ribisi, Dileep Rao, and Matt Gerald reprise their roles from the original film, with Sigourney Weaver returning in an additional role[6] while Kate Winslet joined the cast. It follows a blue-skinned humanoid Na'vi named Jake Sully (Worthington) as he and his family, under renewed human threat, seek refuge with the aquatic Metkayina clan of Pandora, a habitable exomoon on which they live.It was a major box office success, breaking multiple records, and grossing over $2.320 billion worldwide, making it the highest-grossing film of 2022, the highest-grossing film since the COVID-19 pandemic, and the third-highest-grossing film of all time. Organizations like the National Board of Review and the American Film Institute named it as one of the top ten films of 2022. Among its many accolades, the film was nominated for four awards at the 95th Academy Awards, including Best Picture, and won for Best Visual Effects. Three further sequels are in production, with the next film set to be released in December 2025.",
-      category:"hollywoodtop",
+      category2:"hollywoodtop",
+      category:"hollywood",
     },
     {
       id:43,
@@ -350,7 +362,8 @@ const DataStore = (props) => {
       image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicBPg-G0R1exqDBUWRBjO6ycDlCpWm_Y89UMYK_RHu_C4GMm-9OK7Xc_88uENr2Uuzp-FJBmGYng64hTORRRM0VTNhwFR-_5yItB5mgLhikSPtio9qxv0Hs2rbYE5IMfo1sWmo-f05fB1mcS4j5n0ue1cUFzDVM1dLXp8QUW-gk70ViPnpp--hEqIFNQ/s1280/maxresdefault%20(4).jpg",
       smalldes:"Seven-year-old Wen is vacationing with her adoptive fathers, Eric and Andrew, at a remote cabin in rural Pennsylvania. While catching grasshoppers...",
       description:"Knock at the Cabin is a 2023 American apocalyptic psychological horror film written and directed by M. Night Shyamalan, who wrote the screenplay from an initial draft by Steve Desmond and Michael Sherman. It is based on the 2018 novel The Cabin at the End of the World by Paul G. Tremblay, the first adaptation of one of his works. The film stars Dave Bautista, Jonathan Groff, Ben Aldridge, Nikki Amuka-Bird, Kristen Cui, Abby Quinn, and Rupert Grint. In the film, a family vacationing at a remote cabin is suddenly held hostage by four strangers, who ask something unimaginable.Seven-year-old Wen is vacationing with her adoptive fathers, Eric and Andrew, at a remote cabin in rural Pennsylvania. While catching grasshoppers, Wen is approached by a stranger named Leonard. Initially friendly, he explains that he needs Wen and her parents' help to save the world. However, Wen becomes suspicious when three other people appear with makeshift weapons. Wen flees to warn Eric and Andrew, but the visitors break into the cabin and tie them up, with Eric sustaining a concussion attempting to fight them.",
-      category:"hollywoodtop",
+      category2:"hollywoodtop",
+      category:"hollywood",
     },
     {
       id:44,
@@ -358,7 +371,8 @@ const DataStore = (props) => {
       image:"https://rhysopayne.files.wordpress.com/2023/05/img_0990.jpg",
       smalldes:"The Little Mermaid is a 2023 American musical romantic fantasy film directed by Rob Marshall from a screenplay written by David Magee. ",
       description:"The Little Mermaid is a 2023 American musical romantic fantasy film directed by Rob Marshall from a screenplay written by David Magee. Co-produced by Walt Disney Pictures, Lucamar Productions, and Marc Platt Productions, it is a live-action adaptation of Disney's 1989 animated film of the same name, itself loosely based on the 1837 fairy tale of the same title by Hans Christian Andersen. The film stars Halle Bailey in the titular role, alongside Jonah Hauer-King, Daveed Diggs, Awkwafina, Jacob Tremblay, Noma Dumezweni, Art Malik, Javier Bardem and Melissa McCarthy. The Little Mermaid follows a mermaid princess Ariel who is fascinated with the human world and makes a deal with a treacherous sea witch Ursula to trade her voice for human legs to impress Prince Eric, who she saved from a shipwreck before time runs out.",
-      category:"hollywoodtop",
+      category2:"hollywoodtop",
+      category:"hollywood",
     },
     {
       id:45,
@@ -366,7 +380,8 @@ const DataStore = (props) => {
       image:"https://images.thedirect.com/media/article_full/ant-man-quantumania-genre-mcu-marvel.jpg",
       smalldes:"Ant-Man and the Wasp: Quantumania is a 2023 American superhero film based on Marvel Comics featuring the characters Scott Lang...",
       description:"Ant-Man and the Wasp: Quantumania is a 2023 American superhero film based on Marvel Comics featuring the characters Scott Lang / Ant-Man and Hope Pym / Wasp. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Ant-Man (2015) and Ant-Man and the Wasp (2018) and the 31st film in the Marvel Cinematic Universe (MCU). It was directed by Peyton Reed, written by Jeff Loveness, and stars Paul Rudd as Scott Lang and Evangeline Lilly as Hope van Dyne, alongside Jonathan Majors, Kathryn Newton, David Dastmalchian, Katy O'Brian, William Jackson Harper, Bill Murray, Michelle Pfeiffer, Corey Stoll, and Michael Douglas. In the film, Lang, Van Dyne, and their family are accidentally transported to the Quantum Realm and face off against Kang the Conqueror (Majors).",
-      category:"hollywoodtop",
+      category2:"hollywoodtop",
+      category:"hollywood",
     },
     {
     id:46,
@@ -454,7 +469,8 @@ const DataStore = (props) => {
       image:"https://cdn-wp.thesportsrush.com/2023/01/2f295d20-chris-bumstead-mr-olympia-titles.jpg?w=1200&q=60",
       smalldes:"",
       description:"Canadian bodybuilder Chris Bumstead had no intention of pursuing bodybuilding as a career even after the formative years of his life. Had it not been for various events in his life, Bumstead might not have participated on this arduous journey of making a career out of this sport.Born and brought up in Ottawa, Ontario, Bumstead, like most other children, was interested in various sports like soccer, baseball, basketball and ice hockey. It was for his participation in these sports that Bumstead started to get a hang of the gym which eventually blossomed into a successful career.Bumstead, who had started to develop a muscular physique during his school days, had first tried his hand at a regional-level bodybuilding competition in Ontario itself. Perhaps inspired by his elder sister Melissa Valliere, it was quite a day for the siblings as both of them returned home with laurels.Overall champions, Melissa and Chris had won in the senior and junior (Under-21) category respectively. The outcome of this competition in Ontario played a pivotal role in motivating Chris to convert a hobby into a line of work. Not only having already met Melissa’s boyfriend and professional bodybuilder Iain Valliere but also trained under him, Chris had started to take bodybuilding more seriously from this point in time.",
-      category:"fitnesstop1",
+      category1:"fitnesstop1",
+      category:"fitness",
     },
     {
       id:57,
@@ -462,7 +478,8 @@ const DataStore = (props) => {
       image:"https://scitechdaily.com/images/Exercise-Bike-777x544.jpg?ezimgfmt=ng:webp/ngcb2",
       smalldes:"In an analysis of the Look AHEAD study, researchers from the Brigham and Joslin Diabetes Center found that participants who were physically active in the afternoon had greater reductions in blood sugar than those who were most active at other times of day.",
       description:"In an analysis of the Look AHEAD study, researchers from the Brigham and Joslin Diabetes Center found that participants who were physically active in the afternoon had greater reductions in blood sugar than those who were most active at other times of day.Over 37 million Americans have diabetes, and 90-95% of that population are diagnosed with type 2 diabetes. Lifestyle interventions, such as a healthy diet and a regular physical activity program, are methods to manage diabetes. A new study from a collaboration of investigators at Brigham and Women’s Hospital, a founding member of the Mass General Brigham healthcare system, and Joslin Diabetes Center, part of Beth Israel Lahey Health, uses data from the Look AHEAD (Action for Health in Diabetes) study, a randomized controlled trial that compared an intensive lifestyle intervention with diabetes support and education in patients diagnosed with type 2 diabetes and overweight or obesity to track the development of cardiovascular disease over time. In the current study, the research team assessed whether physical activity at certain times of day was associated with greater improvement in blood glucose control. ",
-      category:"fitnesstop",
+      category2:"fitnesstop",
+      category:"fitness",
     },
     {
       id:58,
@@ -470,7 +487,8 @@ const DataStore = (props) => {
       image:"https://scitechdaily.com/images/Health-Fitness-Painting-777x544.jpg?ezimgfmt=ng:webp/ngcb2",
       smalldes:"Can physical activity ‘fight off’ risk of type 2 diabetes? A University of Sydney study suggests high levels of physical activity can significantly lower the…",
       description:"A University of Sydney study suggests high levels of physical activity can significantly lower the risk of developing type 2 diabetes, even for those with a high genetic risk. Over an hour of daily moderate- to vigorous-intensity exercise was linked to a 74% reduction in type 2 diabetes risk, emphasizing the role of physical activity in preventing this condition.New research has revealed being active could lower the risk of type 2 diabetes, even in people with a high genetic risk of developing the medical condition.The University of Sydney-led study found higher levels of total physical activity, especially moderate- to vigorous-intensity physical activity, had a strong association with a lower risk of developing type 2 diabetes.",
-      category:"fitnesstop",
+      category2:"fitnesstop",
+      category:"fitness",
     },
     {
       id:59,
@@ -478,7 +496,8 @@ const DataStore = (props) => {
       image:"https://scitechdaily.com/images/College-Basketball-Practice-777x518.jpg",
       smalldes:"A history of participating in campus recreational sports can offset stress and contribute to academic competence even during high-stress periods such as a pandemic lockdown,…",
       description:"A recent study from the University of Waterloo reveals that prior involvement in campus recreational sports can reduce stress and boost academic competence, even during high-stress situations like pandemic lockdowns. The research found that pre-pandemic participation in fitness classes, intramural, and drop-in sports led to decreased stress levels and increased perceived competence in managing challenges and schoolwork during lockdown.A history of participating in campus recreational sports can offset stress and contribute to academic competence even during high-stress periods such as a pandemic lockdown, shows a new study.Researchers at the University of Waterloo found that participation in activities such as fitness classes and intramural and drop-in sports before the COVID-19 pandemic was linked to lower levels of stress and higher levels of perceived competence to handle challenges and master school workload during the lockdown.",
-      category:"fitnesstop",
+      category2:"fitnesstop",
+      category:"fitness",
     },
     {
       id:60,
@@ -486,7 +505,8 @@ const DataStore = (props) => {
       image:"https://scitechdaily.com/images/Scooping-Protein-Powder-Supplement-777x518.jpg?ezimgfmt=ngcb2/notWebP",
       smalldes:"Findings from a recent Canadian study show that “dry scooping” is common, particularly among adolescent boys and young adult men. A new study, published in…",
       description:"“Dry scooping can have serious health effects, including issues with inhalation, cardiac abnormalities, and digestive issues,” says lead author Kyle T. Ganson, PhD, MSW, assistant professor at the University of Toronto’s Factor-Inwentash Faculty of Social Work, “To date, however, there have been no epidemiological studies investigating the occurrence of dry scooping among young people, leaving significant information unknown.Analyzing data from over 2,700 Canadian adolescents and young adults from the Canadian Study of Adolescent Health Behaviors, the researchers found that 17% of participants reported dry scooping at least one time in the previous year, and an average of 50 times over that time period. The researchers also found that participants who engaged in weight training and spent greater time on social media were more likely to report dry scooping.Our data shows that novel dietary phenomena that become popularized on social media and within gym culture can lead to a greater likelihood of engagement,” Ganson continued. “We need to be thinking of these risk factors as potential areas of prevention and intervention.",
-      category:"fitnesstop",
+      category2:"fitnesstop",
+      category:"fitness",
     },
     {
       id:61,
@@ -574,7 +594,8 @@ const DataStore = (props) => {
       image:"https://injiskitchen.com/wp-content/uploads/2020/11/garlic-2Bbread.jpg",
       smalldes:"This is the BEST homemade garlic bread you’ll ever make. It has fresh herbs, tons of flavorful roasted garlic, and is perfectly toasted. ",
       description:"This is the BEST homemade garlic bread you’ll ever make. It has fresh herbs, tons of flavorful roasted garlic, and is perfectly toasted. This easy garlic bread recipe is delicious served with your fav pasta dishes & comfort foods, and is a guaranteed crowd-pleaser!Garlic bread (also called garlic toast) consists of bread (usually a baguette, sour dough, or bread such as ciabatta), topped with garlic and occasionally olive oil or butter and may include additional herbs, such as oregano or chives. It is then either grilled until toasted or baked in a conventional or bread oven.It is typically made using a French baguette, or sometimes ciabatta which is partially sliced downwards, allowing the condiments to soak into the loaf while keeping it in one piece. The bread is then stuffed through the cuts with oil and minced garlic before baking. Alternatively, butter and garlic powder are used, or the bread is cut lengthwise into separate slices which are individually garnished.",
-      category:"foodtop1",
+      category1:"foodtop1",
+      category:"food",
     },
     {
       id:72,
@@ -582,7 +603,8 @@ const DataStore = (props) => {
       image:"https://i0.wp.com/swadisht.life/en/wp-content/uploads/2023/02/Chole-Bhature-Recipe.jpg",
       smalldes:"Chole Bhature Recipe Chole Bhature is a favorite food not only for Punjabis but for people all over the country. There would hardly be anyone, who does not like Chole Bhature. ",
       description:"Chole Bhature Recipe  Chole Bhature is a favorite food not only for Punjabis but for people all over the country. There would hardly be anyone, who does not like Chole Bhature. However, people do not like to eat Chole Bhature from the market, so they are deprived of this tasty dish. But today we are going to tell you about such a recipe of Chole-Bhatura, by which you can make market-like Punjabi Chole and Bhatura at home. Which will become puffy and tasty in no time. Actually, Chole Bhature is such a recipe, which you can eat very comfortably at lunch.Bhatura is a puffed and fried bread that is served with the very popular dish Punjabi Chole. Although bhatura is made just like puri, but there is a lot of difference between the two. Bhature is made from maida and its dough is fermented which makes it very soft as compared to puri whereas puri is made from wheat flour or maida and its dough are not fermented. Make Bhature at home very easily by following this easy recipe and serving it for lunch or dinner with Punjabi Chole and Onion Salad.",
-      category:"foodtop",
+      category2:"foodtop",
+      category:"food",
     },
     {
       id:73,
@@ -590,7 +612,8 @@ const DataStore = (props) => {
       image:"https://www.holidify.com/images/cmsuploads/compressed/Kimchi-5_20181227134514.jpg",
       smalldes:"This article is about the Korean dish. For people with this surname, see Kimhi. For other uses, see Kimchi (disambiguation).Kimchi (/ˈkɪmtʃiː/; Korean: 김치, romanized: gimchi, IPA: [kim.tɕʰi]), is a traditional Korean ",
       description:"This article is about the Korean dish. For people with this surname, see Kimhi. For other uses, see Kimchi (disambiguation).Kimchi (/ˈkɪmtʃiː/; Korean: 김치, romanized: gimchi, IPA: [kim.tɕʰi]), is a traditional Korean banchan consisting of salted and fermented vegetables, most commonly using napa cabbage or Korean radish. A wide selection of seasonings are used, including gochugaru (Korean chili powder), spring onions, garlic, ginger, and jeotgal (salted seafood), etc.[1][2] Kimchi is also used in a variety of soups and stews. Kimchi is a staple food in Korean cuisine and is eaten as a side dish with almost every Korean meal.There are hundreds of different types of kimchi made with different vegetables as the main ingredients.[2] Traditionally, winter kimchi, called kimjang, was stored in large earthenware fermentation vessels, called onggi, in the ground to prevent freezing during the winter months and to keep it cool enough to slow down the fermentation process during summer months.[4] The vessels are also kept outdoors in special terraces called jangdokdae. In contemporary times, household kimchi refrigerators are more commonly used.",
-      category:"foodtop",
+      category2:"foodtop",
+      category:"food",
     },
     {
       id:74,
@@ -598,7 +621,8 @@ const DataStore = (props) => {
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Nc3Kez9yhZ6x9NjdHt00h3oKHKKKRNje-w&usqp=CAU",
       smalldes:"teokbokki (떡볶이), or simmered rice cake, is a popular Korean food made from small-sized garae-tteok (long, white, cylinder-shaped rice cakes) called tteokmyeon 떡면;( rice cake noodles)",
       description:"Tteokbokki (떡볶이), or simmered rice cake, is a popular Korean food made from small-sized garae-tteok (long, white, cylinder-shaped rice cakes) called tteokmyeon 떡면;( rice cake noodles) or commonly tteokbokki-tteok 떡볶이 떡; (tteokbokki rice cakes).[1][2] Eomuk (fish cakes), boiled eggs, and scallions are some common ingredients paired with tteokbokki in dishes. It can be seasoned with either spicy gochujang (chili paste) or non-spicy ganjang (soy sauce)-based sauce; the former is the most common form,[3] while the latter is less common and sometimes called gungjung-tteokbokki (royal court tteokbokki).Today, variations also include curry-tteokbokki, cream sauce-tteokbokki, jajang-tteokbokki, seafood-tteokbokki, rose-tteokbokki, galbi-tteokbokki and so on. Tteokbokki is commonly purchased and eaten at bunsikjip (snack bars) as well as pojangmacha (street stalls). There are also dedicated restaurants for tteokbokki, where it is referred to as jeukseok tteokbokki (impromptu tteokbokki). It is also a popular home dish, as the rice cakes (garae-tteok) can be purchased in pre-packaged, semi-dehydrated form.",
-      category:"foodtop",
+      category2:"foodtop",
+      category:"food",
     },
     {
       id:75,
@@ -606,8 +630,10 @@ const DataStore = (props) => {
       image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg/640px-Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg",
       smalldes:"",
       description:"The origin of ramen is traced back to Yokohama Chinatown in the early 20th century. The word ramen is a Japanese borrowing of the Chinese word 拉麵 (lāmiàn), meaning 'pulled noodles'. The dish evolved from southern Chinese noodle dishes, reflecting the demographics of Chinese settlers in Yokohama. Ramen gained popularity in Japan, especially during food shortages following World War II. In 1958, instant noodles were invented by Momofuku Ando, further popularizing the dish. Today, ramen is a cultural icon in Japan, with many regional varieties and a wide range of toppings.The last few decades have seen a proliferation of regional ramen variations in Japan, known as gotouchi ramen. Notable examples include Sapporo's rich miso ramen, Hakodate's salt-flavored ramen, Kitakata's thick, flat noodles in pork-and-niboshi broth, Tokyo-style ramen with soy-flavored chicken broth, Yokohama's Ie-kei ramen with soy flavored pork broth, Wakayama's soy sauce and pork bone broth, and Hakata's milky, pork-bone tonkotsu broth. Ramen is offered in various establishments and locations, with the best quality usually found in specialist ramen-ya restaurants. Ramen's popularity extends beyond Japan, as it is known as rìshì lāmiàn in China, ramyeon in Korea, and has even made its way into Western restaurant chains. Instant ramen was exported from Japan in 1971 and has since gained international recognition.",
-      category:"foodtop",
+      category2:"foodtop",
+      category:"food",
     },
+    
    
     
 

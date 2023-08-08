@@ -340,7 +340,7 @@ width: 40vw;
 .advertisement{
   width: 60%;
  height: 25%;
- border: 2px solid rgb(179, 178, 178);
+ /* border: 2px solid rgb(179, 178, 178); */
  display: flex;
  justify-content: center;
  align-items: center;
@@ -648,7 +648,16 @@ font-weight: bold;
   height: 60vh;
   border: 2px solid black;
 }
-
+.back-btn{
+  width: 150px;
+  height: 5vh;
+  border: 2px solid black;
+  position: relative;
+  left: 13vw;
+  font-size: 20px;
+  border-radius: 5px;
+background-color: rgb(176, 225, 243);
+}
 
 
 
@@ -904,7 +913,7 @@ font-size: 0.8rem;
 .latest-aritcalsRight {
   width: 100%;
   position: relative;
-  top: -20vh;
+  top: 0vh;
   row-gap: 0px;
 }
 .artical-img {

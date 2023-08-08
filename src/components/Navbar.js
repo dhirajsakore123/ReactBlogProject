@@ -23,7 +23,7 @@ const [isMobile,setIsMobile]=useState(false)
         <div className='item'>Technology</div></NavLink>
         
      <NavLink to='/hollywood' style={({ isActive }) => ({ color: isActive ? 'red' : 'black' ,textDecoration:'none'})}>
-         <div className='item'>HollyWood</div></NavLink> 
+         <div className='item'>Hollywood</div></NavLink> 
 
      <NavLink to='/fitness' style={({ isActive }) => ({ color: isActive ? 'red' : 'black' ,textDecoration:'none'})}>
         <div className='item'>Fitness</div></NavLink> 
