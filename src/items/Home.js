@@ -87,7 +87,7 @@ const Home = () => {
             style={{ textDecoration: "none", color: "black" }}>
            <div className='top2post' key={index}>
           <img className='post2-img' src={item.image} alt='not found'/>
-          <p className='topdeccription2'>{item.heading.slice(0,30)}</p>
+          <p className='topdeccription2 paragraph'>{item.heading.slice(0,30)}</p>
           <h1 className='countes'>{count++}</h1>
             </div>
           </NavLink>
@@ -101,7 +101,7 @@ const Home = () => {
             style={{ textDecoration: "none", color: "black" }}>
            <div className='top2post' key={index}>
           <img className='post2-img' src={item.image} alt='not found'/>
-          <p className='topdeccription2'>{item.heading.slice(0,25)}</p>
+          <p className='topdeccription2 paragraph'>{item.heading.slice(0,25)}</p>
           <h1 className='countes'>{count++}</h1>
             </div>
           </NavLink>
@@ -115,7 +115,7 @@ const Home = () => {
             style={{ textDecoration: "none", color: "black" }}>
            <div className='top2post' key={index}>
           <img className='post2-img' src={item.image} alt='not found'/>
-          <p className='topdeccription2'>{item.heading.slice(0,30)}</p>
+          <p className='topdeccription2 paragraph'>{item.heading.slice(0,30)}</p>
           <h1 className='countes'>{count++}</h1>
             </div>
           </NavLink>

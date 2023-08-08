@@ -15,7 +15,7 @@ const RandomCompo2 = () => {
            <div className='top1post'key={index}>
           <img className='firstpost-img' src={item.image} alt='not found'/>
           <div className='flexbox'>
-          <p className='topdeccription'>{item.heading}</p>
+          <p className='topdeccription paragraph'>{item.heading}</p>
             <h1 className='countes'>1</h1>
             </div>
             </div>

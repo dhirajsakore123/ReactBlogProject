@@ -17,7 +17,7 @@ const RandomNo = () => {
            <div className='latest-datainner' key={index}>
           <img className='latest-img' src={item.image} alt='not found'/>
           <b >{item.heading.slice(0,50)}</b>
-          <p>{item.description.slice(0,200)}...</p>
+          <p className='paragraph'>{item.description.slice(0,200)}...</p>
          </div>
       </NavLink>
          

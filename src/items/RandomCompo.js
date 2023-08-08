@@ -15,9 +15,9 @@ const RandomCompo = () => {
             <div className='articles' key={index}>
             <img className='artical-img' src={item.image} alt='not found'/>
             <div className='artical-details'>
-                <b>{item.heading}</b>
-                <p>{item.description.slice(0,180)} </p>
-                <p><b style={{color:'#756c6c'}}>Travel</b>/Augest 21 2023</p>
+                <b className='paragraph' >{item.heading}</b>
+                <p className='paragraph'>{item.description.slice(0,180)} </p>
+                <p className='paragraph'><b  className='paragraph' style={{color:'#756c6c'} } >Travel</b>/Augest 21 2023</p>
             </div>
            
           </div>
