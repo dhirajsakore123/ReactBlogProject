@@ -99,7 +99,6 @@ const Bollywood = () => {
           </div>
         </div>
         <div className="loadmore">
-          
           <img src={Arrow} alt="not found"  className="arrow"/>
           <p className="load">Load more</p>
         </div>

@@ -407,6 +407,7 @@ gap: 1%;
 
 }
 .home-img{
+  position: relative;
   border-radius: 10px;
 }
 .home-img1{
@@ -433,6 +434,16 @@ gap: 1%;
   font-size: bold;
   text-shadow: 4px 1px 3px white;
 }
+.textOn-img1{
+  position: absolute;
+  z-index: 10;
+  bottom: 1vh;
+  left: 1vw;
+  font-size: 25px;
+  color: #000000;
+  font-size: bold;
+  text-shadow: 4px 1px 3px white;
+}
 
 
 
@@ -451,6 +462,7 @@ animation-timing-function: ease-out;
   width: 100%;
   height: 100%;
 }
+
 @keyframes road{
   0%{
   transform: translateY(0%);
@@ -514,6 +526,129 @@ animation-timing-function: ease-out;
   width: 100%;
   height: 25vh;
 }
+
+.latest-aritcals{
+  position: relative;
+  top: 20vh;
+
+  width: 80%;
+  height:250vh ;
+  display: flex;
+}
+.latest-aritcalsRight{
+  border: 2px solid black;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+.latest-aritcalsLeft{
+  border: 2px solid black;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.home-add{
+  position: relative;
+  top: 15vh;
+  border: 2px solid rgb(156, 153, 153);
+   width:80% ;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.articles{
+  width: 100%;
+  height:30vh ;
+  border-top:2px solid #d1caca;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ column-gap: 1vw;
+ padding-top: 3vh;
+}
+.artical-img{
+  height: 28vh;
+  width: 40%;
+ 
+}
+.artical-details{
+  
+  height: 30vh;
+  width:50% ;
+}
+.top-posts{
+ 
+  width: 80%;
+  height: 110vh;
+  position: relative;
+  top: 25vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.top-post1{
+
+width: 100%;
+/* height: 110vh; */
+
+}
+.top1post{
+  border-bottom: 2px solid rgb(213, 188, 188);
+height: 45vh;
+}
+.firstpost-img{
+  width: 100%;
+  height: 30vh;
+}
+.flexbox{
+  display: flex;
+  column-gap: 3vw;
+}
+.topdeccription{
+width: 70%;
+font-weight: bold;
+}
+.countes{
+  font-size: 40px;
+  color: #848080;
+}
+.top2post{
+  display: flex;
+  column-gap: 1vw;
+  padding: 2vh 0vh;
+  
+  border-bottom: 2px solid rgb(213, 188, 188);
+}
+.post2-img{
+  width: 30%;
+}
+.topdeccription2{
+  width: 45%;
+  font-weight: bold;
+}
+.border-bottom{
+  width: 150px;
+  border-bottom: 3px solid red;
+  font-size: 25px;
+  font-weight: bold;
+}
+.big-img{
+  position: relative;
+  width: 100%;
+ 
+
+}
+.img10{
+  width: 100%;
+  height: 60vh;
+  border: 2px solid black;
+}
+
 
 
 

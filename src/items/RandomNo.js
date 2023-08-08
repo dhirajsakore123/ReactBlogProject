@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const RandomNo = () => {
     const [contextData]=useContext(Store)
-  const random=Math.floor(Math.random()*76)+1
+  const random=Math.floor(Math.random()*76)
   return (
     <div>
       {

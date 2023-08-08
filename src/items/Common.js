@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Store } from "./DataStore";
 
@@ -6,6 +6,11 @@ const Common = () => {
   const params = useParams();
   const [contextData] = useContext(Store);
     const navigate=useNavigate()
+    useEffect(() => {
+    
+      window.scrollTo(0, 0);
+    }, []);
+  
   return (
     <>
     
