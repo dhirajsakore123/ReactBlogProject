@@ -118,7 +118,7 @@ const DataStore = (props) => {
       image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/parmanu-story_647_081417024200.jpg?VersionId=PB2v7io9a6khI2hLbahQYzu1V3UxdyC9",
       smalldes:"",
       description:"‘Parmanu: The Story Of Pokhran’ is exactly what the title suggests. It’s a part fiction, part fact build up to the Pokhran II tests in 1998, after which India was recognised as a nuclear power on the global stage. While it is inspired by this real-life event, it’s story doesn’t follow India’s nuclear program to the T. It takes a few, cinematic liberties, in the way our scientific community and armed forces beat the American intelligence and surveillance systems to successfully test three nuclear bombs in the desert of Pokhran, Rajasthan. It is not an authentic recreation of history, but ‘Parmanu’ is a fairly entertaining look at a story that evokes the right sense of patriotism and national pride without being jingoistic.",
-      category:"bollywoodtop",
+      category2:"bollywoodtop",
       category:'bollywood'
     },
     {
@@ -127,7 +127,7 @@ const DataStore = (props) => {
       image:"https://www.koimoi.com/wp-content/new-galleries/2022/08/aamir-khan-starrer-laal-singh-chaddha-advance-booking-001.jpg",
       smalldes:"",
       description:"The film begins on a train journey from Pathankot to Chandigarh where Laal narrates his extraordinary life to fellow passengers. He is seen carrying a red sweet box, which most assume contains sweets but turns out to be gol gappas. Through his life story, the viewers are taken back in time where Kulkarni and Chandan narrate some of the most important chapters of Indian history from the late 1970s to 2018. From the Emergency era to Operation Blue Star, India Gandhi's assassination, Babri Masjid Demolition, Advani's Rath Yatra, India winning the 1983 Cricket World Cup, Sushmita Sen winning Miss Universe crown, the Kargil war, Mumbai attacks to PM Modi's Swachh Bharat Abhiyaan, all are beautifully incorporated into the story. ",
-      category:"bollywoodtop",
+      category2:"bollywoodtop",
       category:'bollywood'
     },
     
