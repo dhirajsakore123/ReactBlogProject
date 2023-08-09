@@ -10,16 +10,18 @@ const RandomCompo2 = () => {
       {
       contextData.filter((item)=>item.id===random).map((item,index)=>{
         return(
-            <NavLink   to={`/${item.id}`}
-            style={{ textDecoration: "none", color: "black" }}>
+          
            <div className='top1post'key={index}>
+              <NavLink   to={`/${item.id}`}
+            style={{ textDecoration: "none", color: "black" }}>
           <img className='firstpost-img' src={item.image} alt='not found'/>
           <div className='flexbox'>
           <p className='topdeccription paragraph'>{item.heading}</p>
             <h1 className='countes'>1</h1>
             </div>
+            </NavLink>
             </div>
-          </NavLink>
+        
         )
        })
       }

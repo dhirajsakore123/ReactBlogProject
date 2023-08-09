@@ -17,7 +17,7 @@ const ContentFoot = (props) => {
         return(
            <>
           
-            <div className="cards">
+            <div className="cards" key={index}>
             <NavLink to={`/${item.id}` }
     style={{ textDecoration: "none", color: "black" }}>
             <img

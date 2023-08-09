@@ -13,8 +13,8 @@ const RandomNo = () => {
       return(
         <NavLink
         to={`/${item.id}`}
-        style={{ textDecoration: "none", color: "black" }}>
-           <div className='latest-datainner' key={index}>
+        style={{ textDecoration: "none", color: "black" }}  key={index}>
+           <div className='latest-datainner'>
           <img className='latest-img' src={item.image} alt='not found'/>
           <b >{item.heading.slice(0,50)}</b>
           <p className='paragraph'>{item.description.slice(0,200)}...</p>

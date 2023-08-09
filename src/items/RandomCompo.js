@@ -10,18 +10,21 @@ const RandomCompo = () => {
       {
       contextData.filter((item)=>item.id===random).map((item,index)=>{
         return(
-            <NavLink   to={`/${item.id}`}
-            style={{ textDecoration: "none", color: "black" }}>
-            <div className='articles' key={index}>
-            <img className='artical-img' src={item.image} alt='not found'/>
+           
+            
+               <NavLink   to={`/${item.id}`}
+            style={{ textDecoration: "none", color: "black" }}  key={index}>
+              <div className='articles'>
+            <img className='artical-img' src={item.image} alt='not found'  />
             <div className='artical-details'>
                 <b className='paragraph' >{item.heading}</b>
                 <p className='paragraph'>{item.description.slice(0,180)} </p>
                 <p className='paragraph'><b  className='paragraph' style={{color:'#756c6c'} } >Travel</b>/Augest 21 2023</p>
             </div>
-           
-          </div>
-          </NavLink>
+            </div>
+            </NavLink>
+         
+        
         )
        })
       }

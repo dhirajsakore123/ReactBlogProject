@@ -66,9 +66,10 @@ const Home = () => {
   {
      contextData.filter((item)=>item.id===random3).map((item,index)=>{
       return(
-        <>
-        <img className='img10' src={item.image} alt='not found' key={index}/>
-        </>
+        <div key={index}>
+        
+        <img className='img10' src={item.image} alt='not found'/>
+        </div>
       )
      })
   }
@@ -86,42 +87,48 @@ const Home = () => {
    {
       contextData.filter((item)=>item.id===random).map((item,index)=>{
         return(
-            <NavLink   to={`/${item.id}` }
-            style={{ textDecoration: "none", color: "black" }}>
-           <div className='top2post' key={index}>
+          <NavLink   to={`/${item.id}` }
+          style={{ textDecoration: "none", color: "black" }} key={index}>
+           <div className='top2post' >
+           
           <img className='post2-img' src={item.image} alt='not found'/>
           <p className='topdeccription2 paragraph'>{item.heading.slice(0,30)}</p>
           <h1 className='countes'>{count++}</h1>
-            </div>
-          </NavLink>
+          
+        </div>
+        </NavLink>
         )
        })
       }
       {
       contextData.filter((item)=>item.id===random1).map((item,index)=>{
         return(
-            <NavLink   to={`/${item.id}` }
-            style={{ textDecoration: "none", color: "black" }}>
-           <div className='top2post' key={index}>
+          <NavLink   to={`/${item.id}` }
+          style={{ textDecoration: "none", color: "black" }} key={index}>
+           <div className='top2post' >
+            
           <img className='post2-img' src={item.image} alt='not found'/>
           <p className='topdeccription2 paragraph'>{item.heading.slice(0,25)}</p>
           <h1 className='countes'>{count++}</h1>
+         
             </div>
-          </NavLink>
+            </NavLink>
         )
        })
       }
       {
       contextData.filter((item)=>item.id===random2).map((item,index)=>{
         return(
-            <NavLink   to={`/${item.id}` }
-            style={{ textDecoration: "none", color: "black" }}>
-           <div className='top2post' key={index}>
+          <NavLink   to={`/${item.id}` }
+          style={{ textDecoration: "none", color: "black" }} key={index}>
+           <div className='top2post' >
+             
           <img className='post2-img' src={item.image} alt='not found'/>
           <p className='topdeccription2 paragraph'>{item.heading.slice(0,30)}</p>
           <h1 className='countes'>{count++}</h1>
+          
             </div>
-          </NavLink>
+            </NavLink>
         )
        })
       }
