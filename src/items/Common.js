@@ -2,6 +2,10 @@ import React, { useContext, useEffect } from "react";
 import {  useNavigate, useParams } from "react-router-dom";
 import { Store } from "./DataStore";
 import ContentFoot from "./ContentFoot";
+import profileLogo from "./Mask Group 17@2x.png"
+import share from "./share.svg"
+import claps from "./rythm.svg"
+
 
 const Common = () => {
   const params = useParams();
@@ -23,7 +27,7 @@ const Common = () => {
             <div>
               <img
                 className="clap"
-                src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=cf55aaa5-c61c-40c7-8fb8-5622c86d93bb&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
+                src={claps}
                 alt="not found"
               />
               <span className="shareinner">9.3k</span>
@@ -31,7 +35,7 @@ const Common = () => {
             <div>
               <img
                 className="share"
-                src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=178e3f84-dd79-4832-8c69-7926133e32ab&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
+                src={share}
                 alt="not found"
               />
               <span className="shareinner"> share this artical</span>
@@ -42,12 +46,12 @@ const Common = () => {
               .filter((item) => parseInt(item.id) === parseInt(params.id))
               .map((item, index) => {
                 return (
-                  <>
+                  <div key={index}>
                
                     <h2 className="contentheading" >{item.heading}</h2>
-                    <div className="profile" key={index}>
+                    <div className="profile">
                       <img className="profile-img1"
-                        src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
+                        src={profileLogo}
                         alt="not found"
                       />
 
@@ -91,7 +95,7 @@ const Common = () => {
                     <div className="profile">
                       <img
                         className="profilepic2"
-                        src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
+                        src={profileLogo}
                         alt="not found"
                       />
                       <p style={{ color: "#d1caca", fontSize: "12px" }}></p>
@@ -108,7 +112,7 @@ const Common = () => {
                       <hr className="prhr" />
                       <button className="back-btn" onClick={()=>{navigate(-1)}}>Back</button>
                     </div>
-                    <>
+                    <div>
                       <div className="dynamic-bottom">
                         <div className="dynamic-bottom1">
                           <b>More From The Siren</b>
@@ -120,8 +124,8 @@ const Common = () => {
                        
                         </div>
                       </div>
-                    </>
-                  </>
+                    </div>
+                  </div>
                 );
               })}
           </div>

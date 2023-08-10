@@ -7,7 +7,7 @@ const Technology = () => {
   const [contextData] = useContext(Store);
 
   const filtered = contextData.filter((item) => {
-    return item.category === "technology";
+    return item.category0 === "technology";
   });
   const filtered2 = contextData.filter((item) => {
     return item.category1 === "technology1";
@@ -36,7 +36,7 @@ const Technology = () => {
                   >
                     <div className="parabox">
                       <p className="blogheading">{item.heading}</p>
-                      <p className="blogdetail">{item.smalldes}</p>
+                      <p className="blogdetail">{item.description.slice(0,150)}...</p>
                     </div>
                   </NavLink>
                   <hr className="gaphr" />
@@ -52,8 +52,8 @@ const Technology = () => {
             <>
               {filtered2.map((item, index) => {
                 return (
-                  <>
-                    <div className="blog2" key={index}>
+                  <div key={index}>
+                    <div className="blog2" >
                       <img src={item.image} className="blogimg1" alt="img" />
                       <div className="flexnum">
                         <NavLink
@@ -69,15 +69,15 @@ const Technology = () => {
                       </div>
                     </div>
                     <hr className="gaphr2" />
-                  </>
+                  </div>
                 );
               })}
             </>
             <>
               {filtered3.map((item, index) => {
                 return (
-                  <>
-                    <div className="blog3" key={index}>
+                  <div key={index}>
+                    <div className="blog3" >
                       <img src={item.image} className="blogimg2" alt="img" />
                       <div className="flexnum">
                         <NavLink
@@ -91,7 +91,7 @@ const Technology = () => {
                       </div>
                     </div>
                     <hr className="gaphr2" />
-                  </>
+                  </div>
                 );
               })}
             </>

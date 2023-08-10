@@ -7,7 +7,7 @@ const Fitness = () => {
   const [contextData] = useContext(Store);
 
   const filtered = contextData.filter((item) => {
-    return item.category === "fitness";
+    return item.category0 === "fitness";
   });
   const filtered2 = contextData.filter((item) => {
     return item.category1 === "fitnesstop1";
@@ -52,7 +52,7 @@ const Fitness = () => {
             <>
               {filtered2.map((item, index) => {
                 return (
-                  <>
+                  <div key={index}>
                     <div className="blog2" key={index}>
                       <img src={item.image} className="blogimg1" alt="img" />
                       <div className="flexnum">
@@ -69,14 +69,14 @@ const Fitness = () => {
                       </div>
                     </div>
                     <hr className="gaphr2" />
-                  </>
+                  </div>
                 );
               })}
             </>
             <>
               {filtered3.map((item, index) => {
                 return (
-                  <>
+                  <div key={index}>
                     <div className="blog3" key={index}>
                       <img src={item.image} className="blogimg2" alt="img" key={index}/>
                       <div className="flexnum">
@@ -91,7 +91,7 @@ const Fitness = () => {
                       </div>
                     </div>
                     <hr className="gaphr2" />
-                  </>
+                  </div>
                 );
               })}
             </>

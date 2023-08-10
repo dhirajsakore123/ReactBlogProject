@@ -7,7 +7,7 @@ const Food = () => {
   const [contextData] = useContext(Store);
 
   const filtered = contextData.filter((item) => {
-    return item.category === "food";
+    return item.category0 === "food";
   });
   const filtered2 = contextData.filter((item) => {
     return item.category1 === "foodtop1";
@@ -23,7 +23,7 @@ const Food = () => {
         <div className="page2">
           <div className="blog-container">
             <>
-              <h4 className="heading">Fitness</h4>
+              <h4 className="heading">Food</h4>
             </>
             {filtered.map((item, index) => {
               return (
@@ -31,7 +31,7 @@ const Food = () => {
                   <img className="blogimg" src={item.image} alt="not found" />
 
                   <NavLink
-                    to={`/fitness/${item.id}`}
+                    to={`/food/${item.id}`}
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     <div className="parabox">
@@ -52,12 +52,12 @@ const Food = () => {
             <>
               {filtered2.map((item, index) => {
                 return (
-                  <>
+                  <div key={index}>
                     <div className="blog2" key={index}>
                       <img src={item.image} className="blogimg1" alt="img" />
                       <div className="flexnum">
                         <NavLink
-                          to={`/fitness/${item.id}`}
+                          to={`/food/${item.id}`}
                           style={{ textDecoration: "none", color: "black" }}
                         >
                           <div className="parabox">
@@ -69,19 +69,19 @@ const Food = () => {
                       </div>
                     </div>
                     <hr className="gaphr2" />
-                  </>
+                  </div>
                 );
               })}
             </>
             <>
               {filtered3.map((item, index) => {
                 return (
-                  <>
-                    <div className="blog3" key={index}>
-                      <img src={item.image} className="blogimg2" alt="img" key={index}/>
+                  <div key={index}>
+                    <div className="blog3" >
+                      <img src={item.image} className="blogimg2" alt="img" />
                       <div className="flexnum">
                         <NavLink
-                          to={`/fitness/${item.id}` }
+                          to={`/food/${item.id}`}
                           style={{ textDecoration: "none", color: "black" }}>
                           <div className="parabox2">
                             <p className="blogheading2">{item.heading}</p>
@@ -91,7 +91,7 @@ const Food = () => {
                       </div>
                     </div>
                     <hr className="gaphr2" />
-                  </>
+                  </div>
                 );
               })}
             </>

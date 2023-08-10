@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Store } from './DataStore'
 import { NavLink } from 'react-router-dom'
-
+import profileLogo from "./Mask Group 17@2x.png"
 
 const ContentFoot = (props) => {
     const [content]=useContext(Store)
@@ -15,11 +15,11 @@ const ContentFoot = (props) => {
     {
         content.filter((item)=>item.category === props.cat && item.id !== props.id).slice(random , random+3).map((item,index)=>{
         return(
-           <>
           
-            <div className="cards" key={index}>
+          
+          <div className="cards"  key={index}>
             <NavLink to={`/${item.id}` }
-    style={{ textDecoration: "none", color: "black" }}>
+                style={{ textDecoration: "none", color: "black" }}  >
             <img
               src={item.image}
               alt="not found"
@@ -33,7 +33,7 @@ const ContentFoot = (props) => {
             <div className="profile">
               <img
                 className="profilepic3"
-                src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1690653480_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ba36380504d4daa61391bc734a30974ca83f8cd7"
+                src={profileLogo}
                 alt="not found"
               />
               <p
@@ -52,7 +52,7 @@ const ContentFoot = (props) => {
             </NavLink>
           </div>
           
-           </>
+         
           
         )
     })

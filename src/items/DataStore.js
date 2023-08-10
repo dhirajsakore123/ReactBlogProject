@@ -10,7 +10,8 @@ const DataStore = (props) => {
        image:'https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/gadar-2-et00338629-1688724591.jpg',
        smalldes:'Actress Ameesha Patel made her Bollywood debut with the blockbuster ‘Kaho Naa… Pyaar Hai in 2000, and a year later, she was seen in the mega-blockbuster ‘Gadar: Ek Prem Katha’ in 2001',
        description:'Actress Ameesha Patel made her Bollywood debut with the blockbuster ‘Kaho Naa… Pyaar Hai in 2000, and a year later, she was seen in the mega-blockbuster‘Gadar: Ek Prem Katha’ in 2001, which she agrees was a game changer for her career but added that it had a flipside too.“I would definitely agree that Gadar 1 was a game-changer for my career. How can it not be? How can one of India’s most iconic films not change a person’s career graph,” Ameesha told IANS.',
-       category:'bollywood'
+       category:'bollywood',
+       category0:'bollywood',
     },
     {
         id:2,
@@ -18,7 +19,8 @@ const DataStore = (props) => {
         image:'https://images.firstpost.com/wp-content/uploads/2022/02/the-kashmir-files-.jpg',
         smalldes:'The Kashmir Files stars Mithun Chakraborty, Anupam Kher, Darshan Kumar, and Pallavi Joshi.',
         description:"The Kashmir Files stars Mithun Chakraborty, Anupam Kher, Darshan Kumar, and Pallavi Joshi.[19] The plot follows a Kashmiri Hindu college student, raised by his exiled grandfather and shielded from the knowledge of the circumstances of the death of his parents. After his grandfather's death, the student, who had come to believe at college that the exodus was benign, becomes driven to uncover the facts of his family's deaths. The plot alternates between the student's quest in the present time, 2020, and his family's travails of thirty years before. The film was released in theatres on 11 March 2022.[6] It has been a commercial success,[1][20] seemingly benefitting from promotion by India's ruling Hindu nationalist Bharatiya Janata Party (BJP) and tax benefits",
-        category:"bollywood"
+        category:"bollywood",
+        category0:'bollywood',
     },
     {
       id:3,
@@ -26,7 +28,8 @@ const DataStore = (props) => {
       image:"https://i.ytimg.com/vi/o7faqi8M7oc/maxresdefault.jpg",
       smalldes:"The Central Board of Film Certification’s revising committee watched Akshay Kumar’s ‘OMG 2’ and chairperson Prasoon Joshi was also present during the screening.",
       description:"The Central Board of Film Certification’s revising committee watched Akshay Kumar’s ‘OMG 2’ and chairperson Prasoon Joshi was also present during the screening. It has been reported that the committee has suggested an adult certificate with about 20 cuts for the film. It is a very shocking thing because the film was a devotional film. Everyone thought it will get a clean U certificate, but surprisingly, it got an adults only certificate. However, the producers have not yet received the show-cause noticeOMG 2 is slated for an August 11 release, but the song that was released after the executive committee of the CBFC watched the film, had the release date missing from it. Akshay Kumar is likely to make the final decision on the movie’s theatrical date with only 16 days remaining for the due date. It appears that the actor is not in the country. The promotional campaign for ‘OMG 2’ is likely to be affected by this controversy.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:4,
@@ -34,7 +37,8 @@ const DataStore = (props) => {
       image:"https://cdn.gulte.com/wp-content/uploads/2022/09/janagana11653935859.jpg",
       smalldes:"Vijay Devarakonda said: “I am supremely excited about JGM, it's one of the most striking and challenging scripts. The story is special and it will touch every Indian.",
       description:"Vijay Devarakonda said: “I am supremely excited about JGM, it's one of the most striking and challenging scripts. The story is special and it will touch every Indian. I am honoured to be a part of Puri’s dream project. My character in JGM is refreshing which I haven't done earlier, and I am sure it will leave an impact on the audiencesPuri Jagannadh added I am extremely happy [and] it feels great to collaborate again with Vijay JGM [has] a strong narrative [and will be] the ultimate action entertainerJGM is short for Jana Gana Mana. Production began in April 2022 — and will involve multiple international locations.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:5,
@@ -42,7 +46,8 @@ const DataStore = (props) => {
       image:"https://assets-in.bmscdn.com/discovery-catalog/events/et00364640-pfgwqqmksn-landscape.jpg",
       smalldes:"A movie showcasing the authentic beauty of rural India. In a realm where movies often depict villages and towns through artificial sets, 'Panch Kriti'",
       description:"A movie showcasing the authentic beauty of rural India. In a realm where movies often depict villages and towns through artificial sets, 'Panch Kriti' approaches the subject differently, capturing the essence of Chanderi in Bundelkhand, Madhya Pradesh, through the lens of reality.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:6,
@@ -50,7 +55,8 @@ const DataStore = (props) => {
       image:"https://m.media-amazon.com/images/M/MV5BMmVkM2RjODgtMWY2NC00MTU1LTgyMTEtMmE2YmVkOTgwN2I4XkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg",
       smalldes:"Ganapath Part-1 is an upcoming action movie that stars Kriti Sanon and Tiger Shroff in the lead roles. The duo has reunited for the first time after their debut movie, Heropanti (2014).",
       description:"Ganapath Part-1 is an upcoming action movie that stars Kriti Sanon and Tiger Shroff in the lead roles. The duo has reunited for the first time after their debut movie, Heropanti (2014).The film is currently under the direction of Vikas Bahl. The producers of the movie include Vashu Bhagnani, Jackky Bhagnani, Deepshikha Deshmukh and Vikas Bahl.Stay tuned for more updates related to the soundtrack, trailer, reviews, and much more!",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     }
     ,
     {
@@ -59,7 +65,8 @@ const DataStore = (props) => {
       image:"https://gumlet.assettype.com/filmcompanion%2F2023-06%2F5b1c5dc9-67d4-4630-84a7-fdf6d56a78ac%2Fmaxresdefault.jpg?auto=format%2Ccompress&fit=max&w=400&dpr=2.6",
       smalldes:"Sequel to the comedies Fukrey and Fukrey returns, starring Pankaj Tripathi, Richa Chadha, Pulkit Samrat, and Varun Sharma in the lead.",
       description:"The friends facing disastrously funny situations together and having each other's backs through the trenches to make it out of a new mess this time. The friends facing disastrously funny situations together and having each other's backs through the trenches to make it out of a new mess this time.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:8,
@@ -67,7 +74,8 @@ const DataStore = (props) => {
       image:"https://static.toiimg.com/photo/95934928.jpeg",
       smalldes:"After finding two sets of identical twins Roy and Current Man (Ranveer Singh) on the doorstep of his orphanage, Dr. Roy Jamnadas (Uday Tikekar) gives them...",
       description:"After finding two sets of identical twins Roy and Current Man (Ranveer Singh) on the doorstep of his orphanage, Dr. Roy Jamnadas (Uday Tikekar) gives them up for adoption to two different families in two different cities. Years later, a comedy of errors ensues when one set of twins decide to visit the city where the other set of twins run a circus.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:9,
@@ -75,7 +83,8 @@ const DataStore = (props) => {
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-KXD6k10KfRg4Z5oevDHVgB9mYQkeEOWtaPreL2xDAgkepC0Oxkr7wVzjRNhHCdueOnU&usqp=CAU",
       smalldes:"After joining the Indian Air Force, an ambitious youngster Shamsher Pathania (Hrithik Roshan) must rise above his limitations to become a hero of the Indian Armed Forces.",
       description:"Shamsher Pathania, an aspiring young man, fulfills his lifelong dream of joining the Indian Air Force. As he faces rigorous personal challenges, Shamsher must rise above his own limitations to be a true hero of the Indian Armed Forces. Fighter is an upcoming Indian Hindi-language action film directed by Siddharth Anand and produced by Viacom18 Studios and Marflix Pictures. The film stars Deepika Padukone, Hrithik Roshan and Anil Kapoor, and serves as the first film in a planned aerial action franchise.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:10,
@@ -83,7 +92,8 @@ const DataStore = (props) => {
       image:"https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2022/09/08/199348-untitled-design-88.jpg?itok=Zv6FcqmR",
       smalldes:"Badass cop Vikram (Saif Ali Khan) leads a special task force to capture Vedha (Hrithik Roshan), accompanied by his partner. When Vedha voluntarily surrenders, he offers to tell Vikram a story, throwing Vikram's life into disarray.",
       description:"Vikram Vedha is a 2022 Indian Hindi-language neo-noir action thriller film written and directed by Pushkar–Gayathri and jointly produced by YNOT Studios, Friday Filmworks, Reliance Entertainment, T-Series Films and Jio Studios. A remake of the duo's 2017 Tamil film of the same name, it is inspired by the Indian folktale Baital Pachisi and stars Saif Ali Khan and Hrithik Roshan as the titular anti-heroes.While Radhika Apte, Rohit Saraf and Yogita Bihani play supporting roles. In the film, a police officer sets out to track down and kill a dreaded gangster.",
-      category:"bollywood"
+      category:"bollywood",
+      category0:'bollywood',
     },
     {
       id:11,
@@ -138,6 +148,7 @@ const DataStore = (props) => {
       smalldes:"Earlier this month, people in Algeria might have felt like they’d woken up in a different era as they struggled to conduct their daily online lives.",
       description:"Earlier this month, people in Algeria might have felt like they’d woken up in a different era as they struggled to conduct their daily online lives. The government had ordered Internet Service Providers (ISPs) to block certain websites, including news and social media services, rendering large parts of the Internet inaccessible to everyone.The orders were given by local authorities, as part of efforts to curb cheating during the national baccalaureate exams held from 11-15 June.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:17,
@@ -146,6 +157,7 @@ const DataStore = (props) => {
       smalldes:"When the U.S. Supreme Court overturned Roe v. Wade in 2022, Americans lost their constitutional right to an abortion. Suddenly, law enforcement ..",
       description:"When the U.S. Supreme Court overturned Roe v. Wade in 2022, Americans lost their constitutional right to an abortion. Suddenly, law enforcement could use private conversations, period tracking app data, or even Google search history about getting an abortion as evidence in a state where it’s illegal to incriminate the person seeking it.Conversations about seeking reproductive healthcare can be private and secure, if they happen on a messaging app or platform that uses end-to-end encryption, and if we resist government attempts to break encryption.Encryption is a fundamental part of how stay safe online and offline. How it protects people trying to seek reproductive healthcare care is just one example.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:18,
@@ -154,6 +166,7 @@ const DataStore = (props) => {
       smalldes:"Can low Earth orbit satellites that provide Internet access help close the digital divide, or will they create more challenges? Our paper explores these questions ...",
       description:"We see considerable potential in the use of LEO satellites for Internet access for unserved or under-served communities, especially where there are few other ways of delivering Internet access. We also see great potential for Internet access to communities affected by natural or human disaster, and to increase the overall resilience of Internet connectivity. But there’s one big caveat. As of late 2022, most LEO constellations are in early stages of deployment and there are still many unknowns.As the LEO-based industry matures over the next few years, we must guide the discussion and shape the future of this new form of Internet access—to protect the Internet and help make sure this emerging technology can serve the people who need it most.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:19,
@@ -162,6 +175,7 @@ const DataStore = (props) => {
       smalldes:"Along with the proliferation of Artificial Intelligence, the one thing that has consistently raised concerns is the responsible use of the technology that has been making strides worldwide...",
       description:"Along with the proliferation of Artificial Intelligence, the one thing that has consistently raised concerns is the responsible use of the technology that has been making strides worldwide. While several nations are in the process of laying a framework to govern the responsible use of AI, big tech companies are working towards a collective to foster responsible implementation of AI.Even as the clamour around the regulation of AI grows, recently Google, Anthropic, Microsoft, and OpenAI formed an AI safety body. Known as the Frontier Model Forum, the body promotes the safe and responsible development of AI models. With the safety body, these tech giants have made it apparent that for them it’s not just about creating path-breaking technologies but also ensuring that they align with the rest of the world.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:20,
@@ -170,6 +184,7 @@ const DataStore = (props) => {
       smalldes:"From Intel to Samsung, global chipmakers are celebrating the beginning of the end of a semiconductor supply glut, but the outlook for demand...",
       description:"From Intel to Samsung, global chipmakers are celebrating the beginning of the end of a semiconductor supply glut, but the outlook for demand from customers outside the artificial intelligence (AI) industry remains gloomy.All the major markets for chips – smartphones, PCs and data centres – have shrunk this year, as both corporate customers and consumers scale back spending amid a weak global economy, high inflation and rising interest rates.This has created an unprecedented oversupply of commodity chips, causing a record combined 15.2 trillion won ($12 billion) first-half operating loss for the world’s two largest memory chipmakers, Samsung and SK Hynix.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:21,
@@ -178,6 +193,7 @@ const DataStore = (props) => {
       smalldes:"When it comes to Android tablets, Samsung is a pioneer. This time around, the company announced three new tablets within the Tab S9 series ",
       description:"When it comes to Android tablets, Samsung is a pioneer. This time around, the company announced three new tablets within the Tab S9 series at its Galaxy Unpacked event. The only striking difference between these tablets is the screen size; however, it’s not the only difference worth noting.Despite having the same chip, these tablets cater to different kinds of users. Here is an in-depth comparison between the Samsung Galaxy Tab S9 Ultra, Galaxy Tab S9+, and the Galaxy Tab S9 to help you choose the apt tablet for your needs.The base model (Wi-Fi) of the Galaxy Tab S9 costs Rs 72,999 and offers 8 GB RAM and 128 GB of storage. Similarly, base models of the Tab S9+ and the Tab S9 Ultra (Wi-Fi) with 12 GB RAM and 256 GB of storage are priced at 90,999, and Rs 1,08,999, respectively.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:22,
@@ -186,6 +202,7 @@ const DataStore = (props) => {
       smalldes:"Rebranding Twitter as X is not the only thing in store for millions of users of the platform. Elon Musk has chimed into the ongoing debate over light vs. dark mode.",
       description:"Rebranding Twitter as X is not the only thing in store for millions of users of the platform. Elon Musk has chimed into the ongoing debate over light vs. dark mode. And it seems that Twitter will soon take on the dark mode.In response to a user who asked if it would be a black tick or blue tick going forward, the technocrat said that the platform will soon have only dark mode. Not only this, he said that dark mode was a better option in many ways.“This platform will soon only have “dark mode”. It is better in every way,” wrote Musk in response to the user. Musk’s latest comments triggered a spate of responses from Twitter users with many reasoning about how light text against black can strain the eyes.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:23,
@@ -194,6 +211,7 @@ const DataStore = (props) => {
       smalldes:"A brief power outage at NASA’s Mission Control in Houston meant that the space agency lost contact with the International Space Station on Tuesday.",
       description:"A brief power outage at NASA’s Mission Control in Houston meant that the space agency lost contact with the International Space Station on Tuesday. During the outage, flight controllers were able to talk to the crew through Russian Space Agency Roscosmos’s channels.“A power issue in Mission Control Houston resulted in the loss of command, telemetry, and voice from the ground to the International Space Station,” said the American space agency in a blog post. The outage was short-lived as the mission control team transitioned to back-up hardware for telemetry, commanding and audio.“It wasn’t an issue on board. That was purely a ground problem. At no time was the crew or the vehicle in any danger. We knew this work was going on, and in preparation for that we have the backup command and control system that we would use if we have to close the centre for weather emergency, especially important during the hurricane season,” he said to The Guardian.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:24,
@@ -202,6 +220,7 @@ const DataStore = (props) => {
       smalldes:"Online maps are essential for many mobile apps and emerging technologies — take food delivery apps like Swiggy, for instance — but they are mostly controlled by two tech giants: Google and Apple.",
       description:"Online maps are essential for many mobile apps and emerging technologies — take food delivery apps like Swiggy, for instance — but they are mostly controlled by two tech giants: Google and Apple. These companies charge app developers for using their maps as a service and do not share the underlying data that powers them. However, a new initiative by Meta, Microsoft, Amazon Web Services, and TomTom aims to change that.Formed late last year, the Overture Maps Foundation is a collaborative effort to create and maintain open and free base map data that anyone can use to build their own maps. The foundation has collected 59 million points of interest, such as restaurants, landmarks, streets and regional borders, and plans to update them regularly with the help of artificial intelligence and other techniques.Marc Prioleau, executive director of the OMF, told CNBC in an interview that there are companies that “if they wanted to invest to build the map data, they could.” However, companies prefer if they “just get collaboration around the open base map” rather than spend that kind of money.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:25,
@@ -210,6 +229,7 @@ const DataStore = (props) => {
       smalldes:"Apple is reportedly working on a new iPhone design that would completely eliminate the front bezel and offer a truly edge-to-edge display.",
       description:"Apple is reportedly working on a new iPhone design that would completely eliminate the front bezel and offer a truly edge-to-edge display.With the iPhone X, Apple offered an iPhone that was all-display at the front for the first time (minus the notch that is). Subsequent releases trimmed down on those bezels further but Apple could now be planning on doing away with those entirely.According to a report by TheElec, Apple is working on a new iPhone design that would completely eliminate the front bezel and offer a truly edge-to-edge display. The company has asked its OLED screen suppliers, Samsung Display and LG Display, to develop a version of the display that has no bezels at all.",
       category:"technology",
+      category0:"technology",
     },
     {
       id:26,
@@ -263,6 +283,7 @@ const DataStore = (props) => {
     smalldes:"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry..",
     description:"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort – the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort.Harry is regarded as a fictional icon and has been described by many critics, readers, and audiences as one of the greatest literary and film characters of all time. He was portrayed by Daniel Radcliffe in all eight Harry Potter films from Philosopher's Stone (2001) to Deathly Hallows – Part 2 (2011).",
     category:"hollywood",
+    category0:"hollywood",
     },
     {
       id:32,
@@ -271,6 +292,7 @@ const DataStore = (props) => {
       smalldes:"Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney ...",
       description:"Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse Thanos's actions in Infinity War.",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:33,
@@ -279,6 +301,7 @@ const DataStore = (props) => {
       smalldes:"nception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced the film with Emma Thomas, his wife. ",
       description:"Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced the film with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious.[7] The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page,[a] Tom Hardy, Dileep Rao, Cillian Murphy, Tom Berenger, and Michael Caine.Inception's premiere was held in London on July 8, 2010; it was released in both conventional and IMAX theaters beginning on July 16, 2010.[13][14] Inception grossed over $828 million worldwide, becoming the fourth-highest-grossing film of 2010. Considered one of the best films of the 2010s,[15] Inception won four Oscars (Best Cinematography, Best Sound Editing, Best Sound Mixing, Best Visual Effects) and was nominated for four more (Best Picture, Best Original Screenplay, Best Art Direction, Best Original Score) at the 83rd Academy Awards.",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:34,
@@ -287,6 +310,7 @@ const DataStore = (props) => {
       smalldes:"The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer.[5] Based on the DC Comics character Batman.",
       description:"The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer.[5] Based on the DC Comics character Batman, it is the final installment in Nolan's The Dark Knight trilogy, and the sequel to The Dark Knight (2008). The film stars Christian Bale as Bruce Wayne / Batman, alongside Michael Caine, Gary Oldman, Anne Hathaway, Tom Hardy, Marion Cotillard, Joseph Gordon-Levitt, and Morgan Freeman. Eight years after the events of The Dark Knight, the terrorist Bane forces Bruce Wayne to resume his role as Batman and save Gotham City from nuclear destruction.The Dark Knight Rises premiered in New York City on July 16, 2012. The film was released in the United States and the United Kingdom on July 20, 2012. The film received positive reviews from critics who deemed it a satisfying conclusion to the trilogy. The film grossed over $1 billion worldwide, making it the second film in the Batman film series to earn $1 billion, and the highest-grossing Batman film to date.[6] In addition to being Nolan's highest-grossing film, it became the seventh-highest-grossing film of all time at the time of its release, as well as the third-highest-grossing film of 2012. It was named one of the top 10 films of 2012 by the American Film Institute.",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:35,
@@ -295,6 +319,7 @@ const DataStore = (props) => {
       smalldes:"WALL-E (stylized with an interpunct as WALL·E) is a 2008 American computer-animated science fiction romance film[5] produced by Pixar Animation Studios and released by Walt Disney Pictures. ",
       description:"WALL-E (stylized with an interpunct as WALL·E) is a 2008 American computer-animated science fiction romance film[5] produced by Pixar Animation Studios and released by Walt Disney Pictures. The film was directed by Andrew Stanton, produced by Jim Morris, and written by Stanton and Jim Reardon. It stars the voices of Ben Burtt, Elissa Knight, Jeff Garlin, John Ratzenberger, Kathy Najimy, with Sigourney Weaver and Fred Willard. The film follows a solitary robot named WALL-E on a future, uninhabitable, deserted Earth in 2805, left to clean up garbage. He is visited by a robot called EVE sent from the starship Axiom, with whom he falls in love and pursues across the galaxy.After directing Finding Nemo, Stanton felt Pixar had created believable simulations of underwater physics and was willing to direct a film set largely in space. WALL-E has minimal dialogue in its early sequences; many of the characters in the film do not have voices, but instead communicate with body language and robotic sounds that were designed by Burtt. ",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:36,
@@ -303,6 +328,7 @@ const DataStore = (props) => {
       smalldes:"The Matrix is a 1999 science fiction action film[5][6] written and directed by the Wachowskis.",
       description:"The Matrix is a 1999 science fiction action film[5][6] written and directed by the Wachowskis.[a] It is the first installment in the Matrix film series, starring Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Joe Pantoliano, and depicts a dystopian future in which humanity is unknowingly trapped inside the Matrix, a simulated reality that intelligent machines have created to distract humans while using their bodies as an energy source.[7] When computer programmer Thomas Anderson, under the hacker alias Neo, uncovers the truth, he joins a rebellion against the machines along with other people who have been freed from the Matrix.The Matrix is an example of the cyberpunk subgenre of science fiction.[8] The Wachowskis' approach to action scenes was influenced by Japanese animation[9] and martial arts films, and the film's use of fight choreographers and wire fu techniques from Hong Kong action cinema influenced subsequent Hollywood action film productions.",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:37,
@@ -311,6 +337,7 @@ const DataStore = (props) => {
       smalldes:"Interstellar is a 2014 epic science fiction film co-written, directed, and produced by Christopher Nolan. It stars Matthew McConaughey, ",
       description:"Interstellar is a 2014 epic science fiction film co-written, directed, and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is embroiled in a catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humankind.Brothers Christopher and Jonathan Nolan wrote the screenplay, which had its origins in a script Jonathan developed in 2007. Kip Thorne, a Caltech theoretical physicist and 2017 Nobel laureate in Physics,[4] was an executive producer, acted as a scientific consultant, and wrote a tie-in book, The Science of Interstellar. Cinematographer Hoyte van Hoytema shot it on 35 mm movie film in the Panavision anamorphic format and IMAX 70 mm. Principal photography began in late 2013 and took place in Alberta, Iceland, and Los Angeles. Interstellar uses extensive practical and miniature effects, and the company Double Negative created additional digital effects.",
       category:"hollywood",
+      
     },
     
     
@@ -321,6 +348,7 @@ const DataStore = (props) => {
       smalldes:"Toy Story 3 is a 2010 American computer-animated comedy-drama film produced by Pixar Animation Studios for Walt Disney Pictures.",
       description:"Toy Story 3 is a 2010 American computer-animated comedy-drama film produced by Pixar Animation Studios for Walt Disney Pictures. It is the third installment in the Toy Story series[2] and the sequel to Toy Story 2 (1999). It was directed by Lee Unkrich, the editor of the first two films and the co-director of Toy Story 2, produced by Darla K. Anderson, and written by Michael Arndt, while Unkrich wrote the story along with John Lasseter and Andrew Stanton, respectively, director and co-writer of the first two films. The film's ensemble voice cast includes Tom Hanks, Tim Allen, Joan Cusack, Don Rickles, Wallace Shawn, John Ratzenberger, Estelle Harris, Jeff Pidgeon, Jodi Benson, John Morris, Laurie Metcalf and R. Lee Ermey (in his final voice role as Sarge before his death on April 15, 2018), reprising their roles from previous films. Jim Varney, who voiced Slinky Dog in the first two films, died on February 10, 2000, 10 years before the release of the third film, so the role of Slinky was passed down to Blake Clark. ",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:39,
@@ -329,6 +357,7 @@ const DataStore = (props) => {
       smalldes:"Sherlock Holmes is a 2009 period mystery action film starring Robert Downey Jr. as the character of the same name created by Sir Arthur Conan Doyle.",
       description:"Sherlock Holmes is a 2009 period mystery action film starring Robert Downey Jr. as the character of the same name created by Sir Arthur Conan Doyle. The film was directed by Guy Ritchie and produced by Joel Silver, Lionel Wigram, Susan Downey, and Dan Lin. The screenplay written by Michael Robert Johnson, Anthony Peckham, and Simon Kinberg was developed from a story by Wigram and Johnson. In addition to Downey Jr. as Holmes, Jude Law portrays Dr. John Watson. The film, set in 1890, follows eccentric detective Holmes and his companion Watson attempting to foil a mysticist's plot to gain control of Britain by seemingly supernatural means. Rachel McAdams stars as Holmes' former adversary Irene Adler and Mark Strong portrays villain Lord Henry Blackwood.The film was widely released in North America on 25 December 2009, and on 26 December 2009 in the UK, Ireland, the Pacific and the Atlantic. Sherlock Holmes received mostly positive critical reaction. Downey won the Golden Globe Award for Best Actor in a Musical or Comedy. The film was also nominated for two Academy Awards, Best Original Score and Best Art Direction. A sequel, Sherlock Holmes: A Game of Shadows, was released on 16 December 2011, with a third film in the works to be directed by Dexter Fletcher.",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:40,
@@ -337,6 +366,7 @@ const DataStore = (props) => {
       smalldes:"Top Gun: Maverick is a 2022 American action drama film directed by Joseph Kosinski and written by Ehren Kruger, Eric Warren Singer, and Christopher McQuarrie from stories by Peter Craig and Justin Marks.",
       description:"Top Gun: Maverick is a 2022 American action drama film directed by Joseph Kosinski and written by Ehren Kruger, Eric Warren Singer, and Christopher McQuarrie from stories by Peter Craig and Justin Marks. The film is a sequel to the 1986 film Top Gun. Tom Cruise reprises his starring role as the naval aviator Maverick. It is based on the characters of the original film created by Jim Cash and Jack Epps Jr. It also stars Miles Teller, Jennifer Connelly, Jon Hamm, Glen Powell, Lewis Pullman, Ed Harris and Val Kilmer, who reprises his role as Iceman. The story involves Maverick confronting his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission.",
       category:"hollywood",
+      category0:"hollywood",
     },
     {
       id:41,
@@ -390,6 +420,7 @@ const DataStore = (props) => {
     smalldes:"Muscle fatigue is a complex phenomenon – during exercise, muscles contract and generate force through a series of intricate interactions between nerve impulses and fibers, utilizing energy.",
     description:"Muscle fatigue is a complex phenomenon – during exercise, muscles contract and generate force through a series of intricate interactions between nerve impulses and fibers, utilizing energy. One of the primary contributors to muscle fatigue is the depletion of energy stored within the muscle cells.Creatine compounds act like a store house from which ATP (adenosine triphosphate) is delivered to the muscles. ATP is the energy stored in the muscles which fuels their contractions.“When muscles get tired it means energy in the form of ATP is depleted,” adds Dr Sundar. “Throughout repetitive muscle movement, the muscles contract and relax. There are two filaments, actin and myosin present in the muscles which pull each other during contractions. While pulling together they need ATP which is stored in the form of creatine. When you exercise, these filaments just keep on pulling and retracting and they hit a limit.”",
     category:"fitness",
+    category0:"fitness",
     },
     {
       id:47,
@@ -398,6 +429,7 @@ const DataStore = (props) => {
       smalldes:"Hitting the gym and pumping iron is a meticulously planned endeavor. One has to ensure the different muscle groups and parts of the body get a workout through the weekly schedule while rest...",
       description:"Hitting the gym and pumping iron is a meticulously planned endeavor. One has to ensure the different muscle groups and parts of the body get a workout through the weekly schedule while rest, diet including an appropriate combination of vitamins with carbohydrates and proteins along with fitness levels should all be taken into account in the plan. And while the main muscle groups, functionally and aesthetically speaking (the likes of abs, chest, thighs, arms etc.) get the attention, some important muscle groups oft get neglected. The forearms, for instance, whose strengthening is important to increase grip strength, is commonly overlooked.Grip strength, say experts, is not just important for grabbing and lifting in the gym, but for many sports activities as well as functional tasks and chores. While grip strength could be measured and quantified thraough a hand dynamometer, its role in physical exertions, and in the human kinetic chain, is significant and not quite fathomable.",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:48,
@@ -406,6 +438,7 @@ const DataStore = (props) => {
       smalldes:"“Crash diets require you to skip some of your main meals, significantly limiting your calorie intake throughout the day,” says Paurana. ",
       description:"“Crash diets require you to skip some of your main meals, significantly limiting your calorie intake throughout the day,” says Paurana. “People on crash diets consume just a quarter of the recommended daily calorie intake while reducing their regular calorie consumption by more than half. For instance, if you require 2,000 calories per day, the average person on a crash diet only consumes around 600–700.”In addition, the exclusion of certain food groups results in inadequate nutrition that can eventually lead to deficiencies.“Rather than making you healthy and fit, crash diets steer you in the opposite direction,” says Gauri Murthy, a wellness and sports nutrition specialist from Mumbai. “When the body does not receive proper nutrients, there’s a loss of lean tissue [which breaks down easily] and muscle mass, not the fat components themselves. This can cause water loss in the body, resulting in weakness along with low energy and stamina levels. Also, because you are losing muscle mass rather than fat, your skin may sag, and your body may lack definition and appear unhealthy.”",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:49,
@@ -414,6 +447,7 @@ const DataStore = (props) => {
       smalldes:"A trek or hike is a fun mind-opening activity that brings you close to nature. The sensory systems heighten as the heart pumps with healthy vigour.",
       description:"A trek or hike is a fun mind-opening activity that brings you close to nature. The sensory systems heighten as the heart pumps with healthy vigour. At the same time, the rugged terrain, clubbed with long, steep climbs, tests your physical and mental fortitude. Being physically and mentally prepared for a trek while understanding and carrying the hiking essentials will ensure that your uphill adventure leads to a high and not a downward slide.To start with, do your research. Look at factors such as the difficulty level, climate, terrain and duration of the expedition to ensure it matches your fitness level. Be mentally prepared for the challenges ahead and contingencies as well as emergencies that may arise.“If you are going for an easy trek lasting three to four hours, you do not need to be very fit. If you can walk for 30 minutes continuously, it’s enough,” says Ayaan Khan, trek lead at Plan the Unplanned. “However, if you’re doing a continuous 10–12-hour trek, it is advised that you should be able to jog five kilometres in 40 minutes.” ",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:50,
@@ -422,6 +456,7 @@ const DataStore = (props) => {
       smalldes:"The formula for weight gain, once you leave a regular gym routine, is simple: most people tend to take in more calories than they burn.",
       description:"The formula for weight gain, once you leave a regular gym routine, is simple: most people tend to take in more calories than they burn.Most tend to continue to eat the same quantity of food (calorie intake) that they formed a habit of while working out. However, when a break in training happens, the body’s requirement of energy is much less and the excess calories, which are not utilized, get stored in the body as fat.Loss of muscle mass exacerbates the situation. “If one stops exercising, there can be a reduction of muscle mass in the body,” says Lavanya Parashivakumar, physiotherapist and exercise physiologist at Even Healthcare Pvt. Ltd., Bengaluru. “When the quantity of the available muscle tissues reduces in the body, the metabolism also becomes sluggish which further encourages fat accumulation or deposition.”",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:51,
@@ -430,6 +465,7 @@ const DataStore = (props) => {
       smalldes:"Fasted cardio is an exercise practice that has gained popularity in recent years. “Fasted cardio means exercising after fasting at least for 12 hours. For example...",
       description:"Fasted cardio is an exercise practice that has gained popularity in recent years. “Fasted cardio means exercising after fasting at least for 12 hours. For example, waking up in the morning and exercising without eating anything,” says Dr Ashish Contractor, Director of dept of rehabilitation and sports medicine at Sir HN Reliance Foundation Hospital, Mumbai.Fasted cardio is based on the idea that by exercising empty stomach, the body taps into its fat stores for energy more efficiently, leading to increased fat burning and weight loss. This approach – its potential benefits and drawbacks – has left the fitness world polarized.Cardio involves continuous, rhythmic movements that engage large muscle groups and promote efficient circulation of blood and oxygen.  Common cardio exercises include running, swimming, cycling, brisk walking, dancing, and aerobic workouts.",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:52,
@@ -438,6 +474,7 @@ const DataStore = (props) => {
       smalldes:"An outdoor gym set-up is a very common sight in public parks. The workout equipment helps to do targeted exercises similar to some of the popular gym drills and even attract the crowd.",
       description:"An outdoor gym set-up is a very common sight in public parks. The workout equipment helps to do targeted exercises similar to some of the popular gym drills and even attract the crowd. Some try them out of curiosity while others get hooked, using them to supplement their brisk walking or running routines. Outdoor gym equipment, or park gyms, have its benefits, but their biomechanics aren’t perfect, say experts.At the park though, the equipment does create a buzz around them – kids love to play on them, young adults push hard, and the elderly find them a great means to incorporate some strengthening exercises. You can go tandem on some of them, adding to the fun. The pros are aplenty.Kumar says, “While the purpose of basic fitness is served, this outdoor park gym equipment do have a lot of disadvantages. To start with, since they are used by many, hygiene is a major hazard. They have the potential to spread infections.”",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:53,
@@ -446,6 +483,7 @@ const DataStore = (props) => {
       smalldes:"Carbohydrates are macronutrients which play an important role in the human body. Apart from acting as an energy source, they also help in blood glucose and insulin metabolism.",
       description:"Carbohydrates are macronutrients which play an important role in the human body. Apart from acting as an energy source, they also help in blood glucose and insulin metabolism. Carbohydrates are stored in the liver and muscles as glycogen. During resistance training, muscle contractions rely primarily on aerobic glycolysis for energy. A depletion in glycogen could limit performance. Excessive glycogen depletion can lead to muscle fatigue by lowering ATP synthesis, and endurance exercise in a glycogen-depleted state can reduce muscle protein synthesis. “Omission of carbohydrates or taking fewer carbs can result in muscle loss and lack of energy for the body,” says Nagesh Rao, master fitness trainer at Rockwall Fitness, Bengaluru. “The absence of carbs will result in muscles having less cell volume, which will further result in the shrinkage of the muscles and thus a reduction in their mass. ",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:54,
@@ -454,6 +492,7 @@ const DataStore = (props) => {
       smalldes:"The world of Silambam is both mesmerizing and enticing, where, weapons gracefully swish and whip through the air, wielded by masters in whose hands they become extensions of the body,",
       description:"The world of Silambam is both mesmerizing and enticing, where, weapons gracefully swish and whip through the air, wielded by masters in whose hands they become extensions of the body, synchronised with their will and skill. This martial art style from the southern Indian state of Tamil Nadu is steeped in tradition, history, culture, and, of course, physical strength and mental fortitude.Silambam, the art and its various techniques, carries forward tried and tested techniques from yore. At the same time, it preserves stories of brave warriors from southern India’s vibrant history. The art also offers an avenue to achieve exalted levels of fitness and mental focus. Beyond its aesthetic appeal, Silambam takes practitioners through demanding physical workouts that challenge both the body and the mind.",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:55,
@@ -462,6 +501,7 @@ const DataStore = (props) => {
       smalldes:"The difference between running and jogging is intensity. Running is faster, uses more kilojoules and demands more effort from the heart, lungs and muscles than jogging.",
       description:"The difference between running and jogging is intensity. Running is faster, uses more kilojoules and demands more effort from the heart, lungs and muscles than jogging. Running requires a higher level of overall fitness than jogging.Both running and jogging are forms of aerobic exercise. Aerobic means 'with oxygen' – the term 'aerobic exercise' means any physical activity that produces energy by combining oxygen with blood glucose or body fat.See your doctor for a check-up before you start a running program. This is especially important if you are over 40 years, are overweight, have a chronic illness or haven't exercised in a long time.Pre-exercise screening is used to identify people with medical conditions that may put them at a higher risk of experiencing a health problem during physical activity. It is a filter or ‘safety net’ to help decide if the potential benefits of exercise outweigh the risks for you. Print a copy of the pre-exercise screening tool and discuss it with your doctor or exercise professional.",
       category:"fitness",
+      category0:"fitness",
     },
     {
       id:56,
@@ -515,6 +555,7 @@ const DataStore = (props) => {
       smalldes:"Pani Literally translates to water and here the Puris are fried puffed crisp dough balls which are hollow. Generally, the water or pani is sour, tangy as well as spicy.",
       description:"Pani puri is an immensely popular Indian street food of crispy, hollow, fried dough balls (puri) stuffed with boiled potatoes or steamed moong sprouts or boiled chickpeas or white peas curry (also known as ragda) together with spicy tangy water and a sweet chutney. Pani puri is a favorite chaat snack of many folks and ours too. With so many bursts of tastes and flavors in your mouth when you have pani puri, you just cannot have one 🙂Pani Literally translates to water and here the Puris are fried puffed crisp dough balls which are hollow. Generally, the water or pani is sour, tangy as well as spicy. This spicy pani is balanced with the addition of sweet tamarind chutney.This sweet chutney is called as Meetha (which means sweet) Pani. The spicy water is called as Teekha (which means spicy) Pani. Both are added in the puri along with the main filling which consists of boiled potatoes, cooked chickpeas, moong sprouts or a thick dry curry made from white peas which is called as Ragda.I don’t know who invented pani puri or how it came into existence. It is one of the popular street foods in India. Whereas in Mumbai, we call it pani puri. In the northern states, it is called Golgappa and in Bengal, it is called as Puchka. In Bihar and Jharkand its known as gupchup. So there various ways this street food snack is made and enjoyed.",
       category:"food",
+      category0:"food",
     },
     {
       id:62,
@@ -523,6 +564,7 @@ const DataStore = (props) => {
       smalldes:"Pav Bhaji is a fast food dish from Mumbai (Bombay), India, consisting of a vegetable curry (bhaji) cooked in tomato gravy and served with a soft bread roll (pav).",
       description:"Pav Bhaji is a fast food dish from Mumbai (Bombay), India, consisting of a vegetable curry (bhaji) cooked in tomato gravy and served with a soft bread roll (pav). While Bhaji is a traditional Indian name for a vegetable dish, the Pav or Pao was the Portuguese word for bread, which was introduced by them during their brief presence in Mumbai around the mid-1500s.The origin of this dish traces back to textile mill workers in Mumbai in the 1850s. They had lunch breaks too short for a full meal, and a light lunch was preferred to a heavy one, as the employees had to return to strenuous physical labor after lunch. The dish was invented to fulfill the requirements of lunch for those textile mill workers. They needed cheap, easy, quick-to-prepare, and light, yet nutritious food. A vendor created this dish using items or parts of other dishes available on the menu. Roti (a bread) or rice was replaced with pav, and the curries that usually go with Indian bread or rice were amalgamated into just one spicy concoction: the “bhaji.” It also became a favorite late-night street food. Since then, it has been neatly absorbed into Indian fast food, soaking up the butter and spicy curry that Indians love.Bhaji is made from a tasty and nutritious blend of vegetables, including potatoes, cauliflower, peas, carrots, and onions.  It is blended with bhaji masala, a mix of spices that is similar to chaat masala but a little hotter.The bhaji is served with Pav – soft, buttery buns.",
       category:"food",
+      category0:"food",
     },
     {
       id:63,
@@ -531,6 +573,7 @@ const DataStore = (props) => {
       smalldes:"Italian pasta (pronounced “PAS-tah”) is a collective name for a category of food made from wheat flour and water, sometimes with egg. ",
       description:"Italian pasta (pronounced “PAS-tah”) is a collective name for a category of food made from wheat flour and water, sometimes with egg. The name refers to the resulting dough (pasta also means “dough”) that is rolled out and cut into various shapes.Pasta is cooked in water and served with a sauce. All in all, pasta is one of the most famous, most eaten and certainly the most loved dishes in the world.Spaghetti: thin round long stringsLasagne: wide, flat sheetsMacaroni: short, narrow, curved tubesPapardelle: flat, fairly wide ribbonsPenne: short tubesRavioli: dough cushions with a fillingTagliatelle: flat, fairly narrow ribbons.An Italian mother would never just use any pasta form with her authentic pesto Genovese. Types of pasta that go with pesto include linguine, penne or trenette (a variant of tagliatelle).",
       category:"food",
+      category0:"food",
     },
     {
       id:64,
@@ -539,6 +582,7 @@ const DataStore = (props) => {
       smalldes:"pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese ...",
       description:"pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes or tomato sauce, mozzarella, and basil. Popular legend relates that it was named for Queen Margherita, wife of Umberto I, who was said to have liked its mild fresh flavour and to have also noted that its topping colours—green, white, and red—were those of the Italian flag.Italy has many variations of pizza. The Neapolitan pizza, or Naples-style pizza, is made specifically with buffalo mozzarella (produced from the milk of Italian Mediterranean buffalo) or fior di latte (mozzarella produced from the milk of prized Agerolese cows) and with San Marzano tomatoes or pomodorino vesuviano (a variety of grape tomato grown in Naples). Roman pizza often omits tomatoes (an early 16th-century import) and uses onions and olives. The Ligurian pizza resembles the pissaladière of Provence in France, adding anchovies to olives and onions. Pizza has also spread from Italy throughout much of the rest of the world, and, in regions outside of Italy, the toppings used vary with the ingredients available and the flavour profile preferred.",
       category:"food",
+      category0:"food",
     },
     {
       id:65,
@@ -547,6 +591,7 @@ const DataStore = (props) => {
       smalldes:"A dosa is a thin savory pancake in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are served hot, often with chutney and sambar. ",
       description:"A dosa is a thin savory pancake in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are served hot, often with chutney and sambar. Dosa is a signature dish in South India and Sri Lanka, and is popularly served in their respective restaurants around the world.Dosas originated in South India, but its precise geographical origins are unknown. According to historian P. Thankappan Nair, dosa originated in the town of Udupi in present-day Karnataka.[1][2] However, according to food historian K. T. Achaya, references in the Sangam literature suggest that dosa was already in use in the ancient Tamil country around the 1st century CE.[3] Achaya states that the earliest written mention of dosa appears in literature of present-day Tamil Nadu, in the 8th century, while the earliest mention of dosa in the Kannada literature appears a century later.In popular tradition, the origin of the dosa is linked to Udupi, probably because of the dish's association with Udupi restaurants.[4] The Tamil dosai is softer and thicker. The thinner and crispier version of dosa was first made in present-day Karnataka.[5] A recipe for dosa can be found in Manasollasa, a 12th-century Sanskrit encyclopedia compiled by Someshvara III, who ruled from present-day Karnataka",
       category:"food",
+      category0:"food",
     },
     {
       id:66,
@@ -555,6 +600,7 @@ const DataStore = (props) => {
       smalldes:"Ras malai consists of flattened balls of chhena soaked in malai (a type of clotted cream) flavoured with cardamom. Milk is boiled and a bit of vinegar or lime juice is added to split it...",
       description:"Ras malai, originally[citation needed] known as rosomalai, or roshmalai, is a dessert from the Indian subcontinent. The dessert is called roshmalai/rosmalai in Bengali, ras malai in Hindi,and rasa malei in Odia. It is popular in India, Bangladesh and Pakistan.Ras malai is believed to have originated somewhere in Eastern Indian subcontinent, specifically in the Bengal region.[5] The Sen brothers of Comilla operating under the Matri Bhandar brand claim to be the original maker of the dessert. On the other hand, K.C. Das Grandsons also claims that it was invented by K.C. Das in Kolkata.[6][7] Bangladesh has begun the process of registering geographical indication status for Comillar ras malai.",
       category:"food",
+      category0:"food",
     },
     {
       id:67,
@@ -563,6 +609,7 @@ const DataStore = (props) => {
       smalldes:"rench fries (North American English), chips (British English and other national varieties),[1] finger chips (Indian English),[2] french-fried potatoes, or simply fries...",
       description:"French fries (North American English), chips (British English and other national varieties),[1] finger chips (Indian English),[2] french-fried potatoes, or simply fries, are batonnet or allumette-cut[3] deep-fried potatoes of disputed origin from Belgium or France. They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. Pre-cut, blanched, and frozen russet potatoes are widely used, and sometimes baked in a regular or convection oven; air fryers are small convection ovens marketed for frying potatoes.French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack, and they commonly appear on the menus of diners, fast food restaurants, pubs, and bars. They are often salted and may be served with ketchup, vinegar, mayonnaise, tomato sauce, or other local specialities. Fries can be topped more heavily, as in the dishes of poutine, loaded fries or chili cheese fries. French fries can be made from sweet potatoes instead of potatoes. A baked variant, oven fries, uses less or no oil.",
       category:"food",
+      category0:"food",
     },
     {
       id:68,
@@ -571,6 +618,7 @@ const DataStore = (props) => {
       smalldes:"Paneer Tikka is popular Indian appetizer made with cubes of paneer & veggies marinated with yogurt and spices. Traditionally it's grilled in a tandoor but you can make the same version in the oven with this easy recipe! ",
       description:"Paneer Tikka is popular Indian appetizer made with cubes of paneer & veggies marinated with yogurt and spices. Traditionally it's grilled in a tandoor but you can make the same version in the oven with this easy recipe!Cubes of paneer, onion and bell peppers are marinated with spices and yogurt and then roasted in the oven to perfection.Paneer Tikka was one appetizer which we always ordered when we ate out in India.It is also one of those things which is universally loved. So my brothers who love their non-vegetarian food otherwise wouldn’t mind two servings on this paneer tikka.",
       category:"food",
+      category0:"food",
     },
     {
       id:69,
@@ -579,6 +627,7 @@ const DataStore = (props) => {
       smalldes:"Thatte Idli is a popular variant of Idli (rice cake). While regular idli is smaller and thinner, This idli is larger in circumference as well as thickness and gets its name from the circular disc type bowl in which it is made.",
       description:"Thatte Idli is a popular variant of Idli (rice cake). While regular idli is smaller and thinner, This idli is larger in circumference as well as thickness and gets its name from the circular disc type bowl in which it is made. It is better known as Bidadi (Ramanagara district, between Mysuru and Bengaluru express highway), Thàtte Idli as it originated in Bidadi town.Idli rice and urad dal are soaked in water for several hours. Once they get soft, the rice and dal is ground till they form a smooth batter. Idli batter is left overnight to ferment. Fermented batter almost doubles in volume with lots of air bubbles. Next day, salt is added and batter is spread on special purpose plates- the size of Thàtte Idli and steam cooked for 15-20 minutes in moderate flames. Now, thàtte idli is ready to be served.One single Thàtte idli equals 2-3 regular size idlis in terms of volume. Hence though a plate of Thàtte idli costs more than normal idli, This idli is very fulfilling.",
       category:"food",
+      category0:"food",
     },
     {
       id:70,
@@ -587,6 +636,7 @@ const DataStore = (props) => {
       smalldes:"As for the Himalayan momo, it is not quite known whether it spread from the Kathmandu valley of Nepal to Tibet or the other way around.",
       description:"As for the Himalayan momo, it is not quite known whether it spread from the Kathmandu valley of Nepal to Tibet or the other way around. Because this dish was initially popular among the Newar community of the Kathmandu Valley of Nepal, one prevalent belief is that traveling Nepali Newar merchants took the recipe from Tibet, where they traded, and brought it home to Nepal.[14] Some argue that momo was introduced in Tibet by a Nepalese Newari princess who was married to a Tibetan king in the late fifteenth century, since in Newari, one of Nepal's oldest languages, ‘mome’ means cooking by steaming.[13] In Tibet, the filling of the dish was typically meat, such as yak and occasionally potatoes and cheese. Traditional Tibetan momo is quite different from the Nepalese one as the former was made with a thicker dough and with little to no spices except salt. However, after arriving in the Indo-Gangetic Plains, the meat became chicken, and mixed vegetables momo was introduced to feed the large population of vegetarian Hindus.[15] A large number of Tibetans emigrated to India following the 1959 Tibetan uprising, bringing their recipes for momos with them.[3] Unproven, but substantiated by the dates and references to momo in colloquial references, the civil war in Nepal pushed out the Nepali diaspora to seek a livelihood in India, which further increased the prevalence of Himalayan style momo in the southern half of India especially in the cities of Chennai and Bangalore.",
       category:"food",
+      category0:"food",
     },
     {
       id:71,
