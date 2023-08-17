@@ -1,10 +1,15 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Arrow from"./arrow.svg"
+import FooterCompo from "./FooterCompo";
 
 const Bollywood = () => {
   const [contextData] = useContext(Store);
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []);
 
   const filtered = contextData.filter((item) => {
     return item.category0 === "bollywood";
@@ -103,6 +108,9 @@ const Bollywood = () => {
           <p className="load">Load more</p>
         </div>
       </div>
+      <div className='footer'>
+       <FooterCompo/>
+     </div>
     </>
   );
 };

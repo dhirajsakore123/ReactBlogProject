@@ -6,12 +6,15 @@ import { Store } from './DataStore'
 import { NavLink } from 'react-router-dom'
 
 import Arrow from"./arrow.svg"
+import FooterCompo from './FooterCompo'
 
 const Home = () => {
+  
   useEffect(() => {
     
     window.scrollTo(0, 0);
   }, []);
+  
   const [contextData]=useContext(Store)
     const random=Math.floor(Math.random()*75)
     const random1=Math.floor(Math.random()*75)
@@ -20,6 +23,7 @@ const Home = () => {
       let count=2
   
   return (
+    <>
   <div className='flex-cont'>
     <div className='home-page'>
      <div className='home-img1 home-img'>
@@ -78,7 +82,7 @@ const Home = () => {
 
 <div className='latest-aritcalsLeft'>
 <div className='home-add'>
-  <h1 style={{color:'#959292'}}>Advertistement</h1>
+<img src="https://i.pinimg.com/originals/47/77/ca/4777ca1b779bf7642d6d3756791cc636.gif" alt="not found" className="ads"/>
 </div>
 <div className='top-posts'>
   <h2 className='border-bottom'>Top Post</h2>
@@ -136,7 +140,12 @@ const Home = () => {
 </div>
 </div>
 </div>
+
   </div>
+  <div className='footer'>
+  <FooterCompo/>
+</div>
+</>
   )
 }
 

@@ -241,15 +241,16 @@ top: 4vh;
   position:relative;
   left: 5vw;
   width: 20vw;
+  border-radius: 5px;
 }
 .blogimg1{
   width: 25vw;
-
+  border-radius: 10px;
 border: 2px solid rgb(82, 237, 21);
 }
 .blogimg2{
   width: 20vw;
-
+  border-radius: 10px;
 border: 2px solid black;
 }
 
@@ -340,7 +341,7 @@ width: 40vw;
 .advertisement{
   width: 60%;
  height: 25%;
- border: 2px solid rgb(179, 178, 178);
+ /* border: 2px solid rgb(179, 178, 178); */
  display: flex;
  justify-content: center;
  align-items: center;
@@ -666,6 +667,77 @@ font-weight: bold;
   border-radius: 5px;
 background-color: rgb(176, 225, 243);
 }
+.footer{
+  height: 400px;
+  position:relative;
+   top:25vh;
+}
+.foot{
+  height: 100%;
+  background-color: brown;
+  
+}
+.foot1{
+
+display: flex;
+justify-content: space;
+column-gap: 4vw;
+  height: 70%;
+  background-color: rgb(143 131 114);
+}
+.box{
+  
+  width: 200px;
+  display: flex; 
+  flex-direction: column;
+  align-items: left;
+}
+.bold1{
+  font-size: 20px;
+  cursor: pointer;
+  color: #564921;
+}
+.bold2{
+  font-size:30px ;
+  color: #72de5a;
+}
+.footercat{
+  height: 10px;
+  color: white;
+  cursor: pointer;
+}
+.footercat:hover{
+  color: #000000;
+}
+.footinner{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap:2vh ;
+}
+.footDes{
+  width: 80%;
+  font-size: 20px;
+  color: white;
+}
+.foot2{
+   height: 30%;
+   background-color: #4d4538;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
+ }
+ .white{
+  color: white;
+ }
+ .media1{
+  width: 40px;
+ }
+
+
 
 
 
@@ -776,11 +848,12 @@ hr{
   width: 100vw;
 }
 .blog-container{
-  .blog-container {
     row-gap: 0px;
     width: 100vw;
     left: 0px;
 }
+.blog-container2{
+  align-items: center;
 }
 .gaphr{
   display: none;
@@ -788,7 +861,11 @@ hr{
 
 .blog{
  
-  width: 100vw;
+ 
+    width: 100vw;
+    padding: 2vh 0vw 5vh 0vw;
+    border-bottom: 2px solid #dad3d3;
+     margin-top: 0px;
 }
 .blog3{
   column-gap: 8vw;
@@ -797,7 +874,6 @@ hr{
 .blogimg{
   width: 40vw;
     height: 15vh;
-    top: 2vh;
 }
 .blogimg1{
   width: 40vw;
@@ -944,7 +1020,13 @@ font-size: 0.8rem;
   height: 33vh;
   padding-top:0px;
 }
-
+.heading1{
+  position: relative;
+    left: -150px;
+}
+.footercat{
+  display: none;
+}
 }
 @media only screen and (min-width:500px) {
   .dis{

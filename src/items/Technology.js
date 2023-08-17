@@ -1,9 +1,15 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Arrow from"./arrow.svg"
+import FooterCompo from "./FooterCompo";
 
 const Technology = () => {
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []);
+
   const [contextData] = useContext(Store);
 
   const filtered = contextData.filter((item) => {
@@ -16,6 +22,7 @@ const Technology = () => {
     return item.category2 === "technologytop";
   });
   let count = 2;
+  
 
   return (
     <>
@@ -95,7 +102,7 @@ const Technology = () => {
                 );
               })}
             </>
-            <div className="advertisement">Advertisement</div>
+            <div className="advertisement"><img src="https://i.pinimg.com/originals/47/77/ca/4777ca1b779bf7642d6d3756791cc636.gif" alt="not found" className="ads"/></div>
           </div>
         </div>
         <div className="loadmore">
@@ -104,6 +111,10 @@ const Technology = () => {
           <p className="load">Load more</p>
         </div>
       </div>
+      
+      <div className='footer'>
+       <FooterCompo/>
+     </div>
     </>
   );
 };

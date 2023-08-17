@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const RandomCompo2 = () => {
     const [contextData]=useContext(Store)
-    const random=Math.floor(Math.random()*75)
+    const random=Math.floor(Math.random()*75)+1
   return (
     <div>
       {
@@ -16,7 +16,7 @@ const RandomCompo2 = () => {
             style={{ textDecoration: "none", color: "black" }}>
           <img className='firstpost-img' src={item.image} alt='not found'/>
           <div className='flexbox'>
-          <p className='topdeccription paragraph'>{item.heading}</p>
+          <p className='topdeccription paragraph'>{item.heading.slice(0,50)}</p>
             <h1 className='countes'>1</h1>
             </div>
             </NavLink>
