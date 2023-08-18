@@ -22,9 +22,9 @@ const Common = () => {
     
       <div className="commonpage">
        
-        <div className="outerdiv">
+        <div className="outerdiv ">
           <div className="likeshare">
-            <div>
+            <div className="pos">
               <img
                 className="clap"
                 src={claps}
@@ -32,7 +32,7 @@ const Common = () => {
               />
               <span className="shareinner">9.3k</span>
             </div>
-            <div>
+            <div  className="pos1" >
               <img
                 className="share"
                 src={share}

@@ -27,12 +27,7 @@ const Home = () => {
   <div className='flex-cont'>
     <div className='home-page'>
      <div className='home-img1 home-img'>
-    
-      {/* <img  className='slid' src='https://images.indianexpress.com/2023/07/AI-Safety-Body.jpg?w=640'alt='not found' />  */}
-      {/* <img className='slid' src='https://www.thestatesman.com/wp-content/uploads/2022/06/maxresdefault-1-1.jpg'alt='not found' /> */}
-      {/* <img className='slid' src='https://picfiles.alphacoders.com/622/62263.jpg'alt='not found' /> */}
       <img className='slid' src='https://posterspy.com/wp-content/uploads/2021/08/POSTERSFORPOSTERSPY4.jpg'alt='not found' />
-      {/* <img className='slid' src='https://images.indianexpress.com/2023/07/International-Space-Station-20230726.jpg?w=640'alt='not found' /> */}
       <span className='textOn-img'>Tital Of Vertical Gallary</span>
      </div>
      <div className='home-img2 home-img'>
@@ -142,7 +137,7 @@ const Home = () => {
 </div>
 
   </div>
-  <div className='footer'>
+  <div className='footer1'>
   <FooterCompo/>
 </div>
 </>

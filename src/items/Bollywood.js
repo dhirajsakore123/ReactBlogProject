@@ -1,10 +1,12 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Arrow from"./arrow.svg"
 import FooterCompo from "./FooterCompo";
 
+
 const Bollywood = () => {
+  const[load,setLoad]=useState(false)
   const [contextData] = useContext(Store);
   useEffect(() => {
     
@@ -30,7 +32,7 @@ const Bollywood = () => {
             <>
               <h4 className="heading">Bollywood</h4>
             </>
-            {filtered.map((item, index) => {
+            {filtered.slice(0,8).map((item, index) => {
               return (
                 <div className="blog" key={index}>
                   <img className="blogimg" src={item.image} alt="not found" />
@@ -48,6 +50,32 @@ const Bollywood = () => {
                 </div>
               );
             })}
+
+             {filtered.slice(8,10).map((item, index) => {
+              return (
+                <div  key={index} className={load?'blog':'less'}>
+                  <img className="blogimg" src={item.image} alt="not found" />
+
+                  <NavLink
+                    to={`/bollywood/${item.id}`}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <div className="parabox">
+                      <p className="blogheading">{item.heading}</p>
+                      <p className="blogdetail">{item.smalldes}</p>
+                    </div>
+                  </NavLink>
+                  <hr className="gaphr" />
+                </div>
+              );
+            })}
+              {load? <div className="loadmore" onClick={()=>{load?setLoad(false):setLoad(true)}}>
+          <img src={Arrow} alt="not found"  className="arrow1"/>
+          <p className="load"> Show less</p>
+        </div>: <div className="loadmore" onClick={()=>{load?setLoad(false):setLoad(true)}}>
+          <img src={Arrow} alt="not found"  className="arrow"/>
+          <p className="load"> Load more</p>
+        </div>}
           </div>
 
           <div className="blog-container2">
@@ -81,7 +109,7 @@ const Bollywood = () => {
             <>
               {filtered3.map((item, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} >
                     <div className="blog3" key={index}>
                       <img src={item.image} className="blogimg2" alt="img" key={index}/>
                       <div className="flexnum">
@@ -103,10 +131,8 @@ const Bollywood = () => {
             <div className="advertisement"><img src="https://i.pinimg.com/originals/47/77/ca/4777ca1b779bf7642d6d3756791cc636.gif" alt="not found" className="ads"/></div>
           </div>
         </div>
-        <div className="loadmore">
-          <img src={Arrow} alt="not found"  className="arrow"/>
-          <p className="load">Load more</p>
-        </div>
+      
+       
       </div>
       <div className='footer'>
        <FooterCompo/>

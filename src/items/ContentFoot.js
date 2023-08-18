@@ -39,11 +39,11 @@ const ContentFoot = (props) => {
               <p
                 style={{ color: "#d1caca", fontSize: "12px" }}
               ></p>
-              <b style={{ paddingTop: "4.5%" }}>
+              <b className='read' style={{ paddingTop: "4.5%" }}>
                 Dhiraj Sakore
                 <br />
                 <p
-                  style={{ color: "#d1caca", fontSize: "12px" }}
+                 className='read1' style={{ color: "#d1caca", fontSize: "12px" }}
                 >
                   Aug 10: (4min Read)
                 </p>
