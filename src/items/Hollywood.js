@@ -68,6 +68,13 @@ const Hollywood = () => {
                 </div>
               );
             })}
+            {load? <div className="loadmore" onClick={()=>{load?setLoad(false):setLoad(true)}}>
+          <img src={Arrow} alt="not found"  className="arrow1"/>
+          <p className="load"> Show less</p>
+        </div>: <div className="loadmore" onClick={()=>{load?setLoad(false):setLoad(true)}}>
+          <img src={Arrow} alt="not found"  className="arrow"/>
+          <p className="load"> Load more</p>
+        </div>}
           </div>
 
           <div className="blog-container2">
@@ -123,13 +130,7 @@ const Hollywood = () => {
             <div className="advertisement"><img src="https://i.pinimg.com/originals/47/77/ca/4777ca1b779bf7642d6d3756791cc636.gif" alt="not found" className="ads"/></div>
           </div>
         </div>
-        {load? <div className="loadmore" onClick={()=>{load?setLoad(false):setLoad(true)}}>
-          <img src={Arrow} alt="not found"  className="arrow1"/>
-          <p className="load"> Show less</p>
-        </div>: <div className="loadmore" onClick={()=>{load?setLoad(false):setLoad(true)}}>
-          <img src={Arrow} alt="not found"  className="arrow"/>
-          <p className="load"> Load more</p>
-        </div>}
+        
       </div>
       <div className='footer'>
        <FooterCompo/>

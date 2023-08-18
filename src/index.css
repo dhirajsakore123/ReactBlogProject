@@ -571,7 +571,7 @@ animation-timing-function: ease-out;
 .home-add{
   position: relative;
   top: 15vh;
-  border: 2px solid rgb(156, 153, 153);
+ 
    width:80% ;
    height: 100vh;
    display: flex;
